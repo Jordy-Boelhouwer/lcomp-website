@@ -11,6 +11,20 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Home routes
+Route::get('/', [
+    'uses' => 'HomeController@index',
+    'as' => 'home.index'
+]);
+
+//Contact routes
+Route::get('/contact', [
+    'uses' => 'ContactController@index',
+    'as' => 'contact.index'
+]);
+
+//About routes
+Route::get('/over-ons', [
+    'uses' => 'AboutController@index',
+    'as' => 'about.index'
+]);
