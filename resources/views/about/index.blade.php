@@ -26,7 +26,7 @@
                             <h4 class="card-title">Referenties</h4>
                             <p class="card-text">L’Comp is reeds sinds 1986 actief. In deze periode hebben wij een uitgebreide klantenkring opgebouwd met
                                 allen hun eigen vraagstukken.</p>
-                            <a href="#" class="btn btn-primary">Lees meer</a>
+                            <a href="{{ route("about.references") }}" class="btn btn-primary">Lees meer</a>
                         </div>
                     </div>
                 </div>

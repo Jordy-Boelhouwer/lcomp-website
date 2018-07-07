@@ -33,3 +33,8 @@ Route::get('/werkwijze', [
     'uses' => 'AboutController@methods',
     'as' => 'about.methods'
 ]);
+
+Route::get('/referenties', [
+    'uses' => 'AboutController@references',
+    'as' => 'about.references'
+]);

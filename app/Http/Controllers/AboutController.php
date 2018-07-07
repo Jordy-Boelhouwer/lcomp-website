@@ -13,4 +13,8 @@ class AboutController extends Controller
     public function methods() {
         return view('about.methods');
     }
+
+    public function references() {
+        return view('about.references');
+    }
 }
