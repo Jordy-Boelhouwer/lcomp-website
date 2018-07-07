@@ -9,4 +9,8 @@ class AboutController extends Controller
     public function index() {
         return view('about.index');
     }
+
+    public function methods() {
+        return view('about.methods');
+    }
 }

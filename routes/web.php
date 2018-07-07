@@ -28,3 +28,8 @@ Route::get('/over-ons', [
     'uses' => 'AboutController@index',
     'as' => 'about.index'
 ]);
+
+Route::get('/werkwijze', [
+    'uses' => 'AboutController@methods',
+    'as' => 'about.methods'
+]);

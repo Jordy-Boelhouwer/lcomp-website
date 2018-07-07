@@ -15,7 +15,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Werkwijze</h4>
                             <p class="card-text">Wij verzorgen uw systeem- en netwerkbeheer, ook op afstand (remote).</p>
-                            <a href="#" class="btn btn-primary">Lees meer</a>
+                            <a href="{{ route("about.methods") }}" class="btn btn-primary">Lees meer</a>
                         </div>
                     </div>
                 </div>
