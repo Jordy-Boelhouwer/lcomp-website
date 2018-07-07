@@ -5,4 +5,8 @@ section {
 .card {
   width: 18rem;
   height: 20rem;
+
+  @include media-breakpoint-down(sm) {
+    margin-bottom: 1rem;
+  }
 }
