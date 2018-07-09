@@ -11,7 +11,7 @@
                 </div>
 
                 <div class="col-md-6 col-sm-12">
-                    <p>Hier komt locatie in google maps</p>
+                    @include('partials/googlemaps')
                 </div>
 
                 <div class="col-md-6 col-sm-12">
