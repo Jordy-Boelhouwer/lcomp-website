@@ -12,7 +12,9 @@ Voer dan de volgende commando uit in je terminal: composer global require "larav
 Om de website op je pc te krijgen, moet je een Git Clone doen van het project in een willekeurige map. 
 Dit kan via de git bash command line, of een git gui naar keuze. nadat je de git clone hebt uitgevoerd, 
 open je het project in een command line (powershell op windows) en run je de volgende commando's: composer install & npm install. 
-Alle dependencies worden dan geinstalleerd. Om de website in je browser te runnen, voer het commando php artisan serve uit.
+Alle dependencies worden dan geinstalleerd. Om de website in je browser te runnen, voer het commando php artisan serve uit. <br>
+
+Om alle assets te compileren (scss, js, afbeeldingen etc.) voer je het commando npm run watch uit in powershell (let op dat je wel in de map van het project zit), als je dit commando hebt uitgevoerd hoef je het niet nog een keer te doen, hij blijft watchen op changes.
 
 ## Aan de website werken
 Schrik niet van de vele mapjes en bestanden in Laravel, je gaat er maar een paar gebruiken. De pagina's zitten in resources/views. Hier zit ook de scss en javascript. scss is een extensie van css, waardoor je ook variabelen en functies kan maken in de css. De HTML zit in blade pagina's. Dit is een templating engine waardoor je gemakkelijk stukjes van andere pagina's kan hergebruiken. Ik heb dan ook een layouts.app bestand aangemaakt waar de standaard dingen in zitten, zoals de head van de html en de navbar. Die kan je extenden met de @extends commando (zie pagina's die ik al heb gemaakt als voorbeeld). <br>
