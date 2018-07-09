@@ -14,3 +14,15 @@ Dit kan via de git bash command line, of een git gui naar keuze. nadat je de git
 open je het project in een command line (powershell op windows) en run je de volgende commando's: composer install & npm install. 
 Alle dependencies worden dan geinstalleerd. Om de website in je browser te runnen, voer het commando php artisan serve uit.
 
+## Aan de website werken
+Schrik niet van de vele mapjes en bestanden in Laravel, je gaat er maar een paar gebruiken. De pagina's zitten in resources/views. Hier zit ook de scss en javascript. scss is een extensie van css, waardoor je ook variabelen en functies kan maken in de css. De HTML zit in blade pagina's. Dit is een templating engine waardoor je gemakkelijk stukjes van andere pagina's kan hergebruiken. Ik heb dan ook een layouts.app bestand aangemaakt waar de standaard dingen in zitten, zoals de head van de html en de navbar. Die kan je extenden met de @extends commando (zie pagina's die ik al heb gemaakt als voorbeeld). <br>
+
+Als je een nieuwe scss pagina aanmaakt, moet je die importen in app.scss. Dit is namelijk de enige pagina die gecompileerd wordt. Hetzelfde geldt voor de javascript. Die moet je ook importen in app.js. Ik heb dit voor veel scss bestanden al gedaan, dus check dat even voor een voorbeeld.<br>
+
+Als je een nieuwe pagina aanmaakt, moet je daar een route voor aanmaken. Die zit in het mapje routes/web.php. Ook moet je hier in een controller een functie voor maken die de pagina teruggeeft. Als het een geheel nieuwe pagina is moet je een nieuwe controller maken. Dat kan met het commando php artisan make:controller NaamController in powershell, verander naam hier uiteraard in de naam van de controller. Ik heb ook al wat controllers aangemaakt, dus je kan die checken voor voorbeelden. <br>
+
+Het raamwerk van de website heb ik al gemaakt, hou de conventies ook aan die ik heb gemaakt. Maak voor een onderdeel met veel code, bijvoorbeeld een slider, een partial aan. Die kan je dan includen in de pagina. <strong> De public/app.js en public/app.css moeten niet gecommit worden! Krijg ze alleen nog niet in de gitignore</strong><br>
+
+Als je nog vragen hebt, kun je me altijd contacten. Success!
+
+
