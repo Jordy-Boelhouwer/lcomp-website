@@ -22,5 +22,6 @@
 		</script>           
 		
 	<body  onload="load()" onUnload="GUnload()">
-					<div id="map" style="width:560px;height:420px; display: block; float: left;"></div>
+					<div id="map" class="location-map">
+					</div>
 </div>
