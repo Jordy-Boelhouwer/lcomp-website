@@ -10,11 +10,11 @@
                     <h1>Contact pagina</h1>
                 </div>
 
-                <div class="col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-12">
                     @include('partials/googlemaps')
                 </div>
 
-                <div class="col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-12">
                     @include('partials/forms/contact')
                 </div>
             </div>
@@ -31,7 +31,7 @@
                     <span><strong>Woensdag:</strong> 9:00 t/m 18:00</span><br>
                     <span><strong>Donderdag:</strong> 9:00 t/m 18:00</span><br>
                     <span><strong>Vrijdag:</strong> 9:00 t/m 18:00</span><br>
-                    <span><strong>Vrijdag:</strong> 10:00 t/m 16:00</span><br>
+                    <span><strong>Zaterdag:</strong> 10:00 t/m 16:00</span><br>
                 </div>
             </div>
         </div>

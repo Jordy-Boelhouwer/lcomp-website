@@ -17,7 +17,7 @@
     </div>
     <div class="form-group">
         <label for="exampleInputQuestion">Uw vraag</label>
-        <input type="textarea" class="form-control" id="exampleInputQuestion">
+        <textarea type="text" class="form-control" id="exampleInputQuestion"></textarea>
     </div>
     <button type="submit" class="btn btn-primary">Verzenden</button>
 </form>
