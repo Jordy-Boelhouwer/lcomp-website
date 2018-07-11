@@ -10,3 +10,12 @@ section {
     margin-bottom: 1rem;
   }
 }
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+
+  .btn-primary {
+    margin-top: auto;
+  }
+}
