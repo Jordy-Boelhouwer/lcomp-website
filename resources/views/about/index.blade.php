@@ -11,7 +11,7 @@
                 </div>
 
                 <div class="col">
-                    <div class="card">
+                    <div class="card" id="about">
                         <div class="card-body">
                             <h4 class="card-title">Werkwijze</h4>
                             <p class="card-text">Wij verzorgen uw systeem- en netwerkbeheer, ook op afstand (remote).</p>
@@ -21,7 +21,7 @@
                 </div>
 
                 <div class="col">
-                    <div class="card">
+                    <div class="card" id="about">
                         <div class="card-body">
                             <h4 class="card-title">Referenties</h4>
                             <p class="card-text">L’Comp is reeds sinds 1986 actief. In deze periode hebben wij een uitgebreide klantenkring opgebouwd met
@@ -32,7 +32,7 @@
                 </div>
 
                 <div class="col">
-                    <div class="card">
+                   <div class="card" id="about">
                         <div class="card-body">
                             <h4 class="card-title">Privacy</h4>
                             <p class="card-text">L’Comp Automatiseringen B.V. is een automatiseringsbureau die zich richt op de zakelijke en particuliere markt.</p>

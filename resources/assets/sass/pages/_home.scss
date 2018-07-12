@@ -1,4 +1,14 @@
-.partner {
-  width: 100%;
-  padding-bottom: 15px;
+.sidepadding {
+	padding-bottom: 15px;
+}
+
+.about {
+	padding-bottom: 15px;
+}
+
+.sidecard-body{
+  -webkit-box-flex:1;
+  -ms-flex:1 1 auto;
+  flex:1 1 auto;
+  padding:7px;
 }
