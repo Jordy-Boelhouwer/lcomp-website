@@ -5,11 +5,11 @@
 @section('content')
     <div class="container">
         <div class="row">
-			<div class="col-lg-2 col-md-12">
+			<div class="col-2">
 				@include('partials/leftsidebar/hulp')
 				@include('partials/leftsidebar/partners')
 			</div>
-            <div class="col-lg-7 col-md-12">
+            <div class="col-7">
                 <h1>L’Comp Automatiseringen</h1>
 				<p>
 					<b>
@@ -25,9 +25,9 @@
 					Wij zijn een jonge onderneming en wij hebben de benodigde kennis en ervaring op het gebied van systeem- en netwerkbeheer.
 					Dit te samen met onze service en ondersteuning bieden wij u een, in de markt unieke, totale service; “alles in een hand”
 				</p>
-				<img class="w-100" alt="" src="{{ asset('/images/LCOMPTeamNieuw1.jpg') }}">
+				<img class="w-100" alt="" src="http://lcomp.nl/image/cache/data/LCOMPTeamNieuw1.jpg">
 			</div>
-			<div class="col-lg-3 col-md-12">
+			<div class="col-3">
                 @include('partials/rightsidebar/isl')
 			</div>
         </div>
