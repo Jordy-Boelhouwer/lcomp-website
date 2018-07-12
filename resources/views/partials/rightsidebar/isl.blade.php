@@ -1,3 +1,12 @@
 <h5>Test</h5>
 <hr>
-<img class="partner w-100 pb-1" src="{{ asset('/images/isl/logo.png') }}">
+<div class="sidepadding">
+	<div class="card">
+		<div class="sidecard-body">
+			<div class="row">
+				<div class="col-md-5"><img src="{{ asset('/images/isl/logo.png') }}" class="w-100"></div>
+				<div class="col-md-7 col-md-offset-4"><b>Download</b><br>Hulp op afstand</div>
+			</div>
+		</div>
+	</div>
+</div>
