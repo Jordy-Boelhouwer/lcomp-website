@@ -38,3 +38,24 @@ Route::get('/referenties', [
     'uses' => 'AboutController@references',
     'as' => 'about.references'
 ]);
+
+//Syscal routes
+Route::get('/applicatiebeheer', [
+    'uses' => 'SyscalController@application',
+    'as' => 'syscal.application'
+]);
+
+Route::get('/systeembeheer', [
+    'uses' => 'SyscalController@system',
+    'as' => 'syscal.system'
+]);
+
+Route::get('/calamiteitenbeheer', [
+    'uses' => 'SyscalController@calamities',
+    'as' => 'syscal.calamities'
+]);
+
+Route::get('/tarieven', [
+    'uses' => 'SyscalController@prices',
+    'as' => 'syscal.prices'
+]);
