@@ -12,3 +12,14 @@
   flex:1 1 auto;
   padding:7px;
 }
+
+.carousel-item {
+  height: 25rem;
+
+  img {
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+  }
+}
+

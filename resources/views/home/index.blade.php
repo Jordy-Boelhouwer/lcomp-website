@@ -5,6 +5,9 @@
 @section('content')
     <div class="container">
         <div class="row">
+			<div class="col-12">
+				@include('partials/carousel')
+			</div>
 			<div class="col-lg-2 col-md-12">
 				@include('partials/leftsidebar/hulp')
 				@include('partials/leftsidebar/partners')
