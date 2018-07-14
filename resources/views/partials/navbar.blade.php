@@ -6,9 +6,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="{{ route("home.index") }}">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="{{ route("about.index") }}">Over ons</a>
-                <a class="nav-item nav-link" href="{{ route("contact.index") }}">Contact</a>
+                <a class="nav-item nav-link @if(Route::current()->getName() == 'home.index') active @endif"
+                   href="{{ route("home.index") }}">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link @if(Route::current()->getName() == 'about.index') active @endif"
+                   href="{{ route("about.index") }}">Over ons</a>
+                <a class="nav-item nav-link @if(Route::current()->getName() == 'contact.index') active @endif"
+                   href="{{ route("contact.index") }}">Contact</a>
             </div>
         </div>
     </nav>
