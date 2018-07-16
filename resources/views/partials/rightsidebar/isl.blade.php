@@ -1,4 +1,3 @@
-<h5>Test</h5>
 <hr>
 <div class="sidepadding">
 	<a href="http://www.islonline.net/start/ISLLightClient" style="text-decoration: none;">

@@ -46,13 +46,18 @@ Route::get('/applicatiebeheer', [
 ]);
 
 Route::get('/systeembeheer', [
-    'uses' => 'SyscalController@system',
-    'as' => 'syscal.system'
+    'uses' => 'SyscalController@systems',
+    'as' => 'syscal.systems'
 ]);
 
 Route::get('/calamiteitenbeheer', [
     'uses' => 'SyscalController@calamities',
     'as' => 'syscal.calamities'
+]);
+
+Route::get('/serviceovereenkomsten', [
+    'uses' => 'SyscalController@service',
+    'as' => 'syscal.service'
 ]);
 
 Route::get('/tarieven', [
