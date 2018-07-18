@@ -64,3 +64,14 @@ Route::get('/tarieven', [
     'uses' => 'SyscalController@prices',
     'as' => 'syscal.prices'
 ]);
+
+//Information routes
+Route::get('/privacyverklaring', [
+    'uses' => 'InformationController@privacy',
+    'as' => 'information.privacy'
+]);
+
+Route::get('/cookies', [
+    'uses' => 'InformationController@cookie',
+    'as' => 'information.cookie'
+]);
