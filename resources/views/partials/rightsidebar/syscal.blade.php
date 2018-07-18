@@ -1,5 +1,4 @@
-<h5>Syscal ontzorgt</h5>
-<hr>
+<h6>Syscal ontzorgt</h6>
 <div class="sidepadding">
 	<div class="card">
 		<div class="sidecard-body">

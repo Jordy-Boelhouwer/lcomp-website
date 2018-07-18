@@ -24,3 +24,29 @@ section {
   margin-bottom: 1rem;
   border-bottom: 1px solid $black;
 }
+
+h6 {
+	overflow: hidden;
+	text-align: center;
+}
+
+h6:before,
+h6:after {
+	background-color: #0790ed;
+	content: "";
+	display: inline-block;
+	height: 1px;
+	position: relative;
+	vertical-align: middle;
+	width: 50%;
+}
+
+h6:before {
+	right: 0.5em;
+	margin-left: -50%;
+}
+
+h6:after {
+	left: 0.5em;
+	margin-right: -50%;
+}

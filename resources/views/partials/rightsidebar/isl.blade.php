@@ -1,4 +1,4 @@
-<hr>
+<h6>Hulp op afstand</h6>
 <div class="sidepadding">
 	<a href="http://www.islonline.net/start/ISLLightClient" style="text-decoration: none;">
 		<div class="card">
