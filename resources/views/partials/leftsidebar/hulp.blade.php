@@ -1,4 +1,4 @@
-<h5>Hulp nodig?</h5>
+<h5>@lang('home.need-help')</h5>
 <hr>
 <div class="sidepadding">
 	<div class="d-flex align-items-center">
@@ -10,6 +10,6 @@
 <div class="sidepadding">
 	<div class="d-flex align-items-center">
 		<i class="mdi mdi-email mdi-18px mr-2 text-primary"></i>
-		<b><a href="mailto:info@lcomp.nl">Stuur een email</a></b>
+		<b><a href="mailto:info@lcomp.nl">@lang('home.send-an-email')</a></b>
 	</div>
 </div>

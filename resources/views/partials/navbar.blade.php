@@ -9,7 +9,7 @@
                 <a class="nav-item nav-link @if(Route::current()->getName() == 'home.index') active @endif"
                    href="{{ route("home.index") }}">Home <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link @if(Route::current()->getName() == 'about.index') active @endif"
-                   href="{{ route("about.index") }}">Over ons</a>
+                   href="{{ route("about.index") }}">@lang('header.about-us')</a>
                 <a class="nav-item nav-link @if(Route::current()->getName() == 'contact.index') active @endif"
                    href="{{ route("contact.index") }}">Contact</a>
             </div>

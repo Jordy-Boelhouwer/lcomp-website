@@ -1,9 +1,9 @@
-<h5>Syscal ontzorgt</h5>
+<h5>@lang('home.syscal-relieves')</h5>
 <hr>
 <div class="sidepadding">
 	<div class="card">
 		<div class="sidecard-body">
-			<div class="small">Er is meer nodig dan alleen het leveren van een product. Wij bieden een overeenkomst aan voor voor algemeen beheer en acurate zorg bij incidenten. Voor u een zorg minder.</div>
+			<div class="small">@lang('home.syscal-text')</div>
 				<ul class="pt-2">
 					<a href="http://www.lcomp.nl/applicatiebeheer" class="sysLinks"><li>Applicatiebeheer</li></a>
 					<a href="http://www.lcomp.nl/Systeembeheer" class="sysLinks"><li>Systeembeheer</li></a>
