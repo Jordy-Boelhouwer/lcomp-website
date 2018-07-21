@@ -45,25 +45,42 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
     ]);
 
 //Syscal routes
-    Route::get('/applicatiebeheer', [
-        'uses' => 'SyscalController@application',
-        'as' => 'syscal.application'
-    ]);
+        Route::get('/applicatiebeheer', [
+            'uses' => 'SyscalController@application',
+            'as' => 'syscal.application'
+        ]);
 
-    Route::get('/systeembeheer', [
-        'uses' => 'SyscalController@system',
-        'as' => 'syscal.system'
-    ]);
+        Route::get('/systeembeheer', [
+            'uses' => 'SyscalController@systems',
+            'as' => 'syscal.systems'
+        ]);
 
-    Route::get('/calamiteitenbeheer', [
-        'uses' => 'SyscalController@calamities',
-        'as' => 'syscal.calamities'
-    ]);
+        Route::get('/calamiteitenbeheer', [
+            'uses' => 'SyscalController@calamities',
+            'as' => 'syscal.calamities'
+        ]);
 
-    Route::get('/tarieven', [
-        'uses' => 'SyscalController@prices',
-        'as' => 'syscal.prices'
-    ]);
+        Route::get('/serviceovereenkomsten', [
+            'uses' => 'SyscalController@service',
+            'as' => 'syscal.service'
+        ]);
+
+        Route::get('/tarieven', [
+            'uses' => 'SyscalController@prices',
+            'as' => 'syscal.prices'
+        ]);
+
+//Information routes
+        Route::get('/privacyverklaring', [
+            'uses' => 'InformationController@privacy',
+            'as' => 'information.privacy'
+        ]);
+
+        Route::get('/cookies', [
+            'uses' => 'InformationController@cookie',
+            'as' => 'information.cookie'
+        ]);
 });
+
 
 
