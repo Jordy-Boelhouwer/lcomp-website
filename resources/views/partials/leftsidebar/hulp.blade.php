@@ -9,7 +9,7 @@
 
 			<div class="d-flex align-items-center mt-2">
 				<i class="mdi mdi-email mdi-18px mr-2 text-primary"></i>
-				<b><a href="mailto:info@lcomp.nl">@lang('home.send-email')</a></b>
+				<b><a href="mailto:info@lcomp.nl">@lang('home.send-an-email')</a></b>
 			</div>
 		</div>
 	</div>
