@@ -16,6 +16,12 @@ return [
 
     'send-an-email' => 'Stuur een email',
 
-    'syscal-relieves' => 'Syscal ontzorgt'
+    'syscal-relieves' => 'Syscal ontzorgt',
+
+    'syscal-text' => 'Er is meer nodig dan alleen het leveren van een proeduct.
+    Wij bieden een overeenkomst aan voor algemeen beheer en accurate zorg bij incidenten.
+    Voor u een zorg minder',
+
+    'external-help' => 'Hulp op afstand'
 
 ];

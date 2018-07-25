@@ -18,6 +18,8 @@ return [
     'syscal-relieves' => 'Syscal relieves',
 
     'syscal-text' => 'More is needed than just delivering a product.
-    We offer an agreement for general management and accurate care in case of incidents. A relieve for you.'
+    We offer an agreement for general management and accurate care in case of incidents. A relieve for you.',
+
+    'external-help' => 'remote help'
 
 ];
