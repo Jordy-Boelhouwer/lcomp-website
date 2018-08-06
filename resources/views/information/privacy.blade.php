@@ -10,6 +10,7 @@
 				@include('partials/leftsidebar/partners')
 			</div>
             <div class="col-lg-7 col-sm-12">
+				<img class="w-100 h-50" src="{{asset('/images/image-privacy.jpg')}}">
                 <h1>@lang('information.privacy-title')</h1>
 				<p>
 					@lang('information.privacy-intro-1')

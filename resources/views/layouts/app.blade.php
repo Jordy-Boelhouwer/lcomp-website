@@ -14,8 +14,6 @@
 
 @yield('content')
 
-@include('partials/footer')
-
 <!-- JS -->
 <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
 </body>
