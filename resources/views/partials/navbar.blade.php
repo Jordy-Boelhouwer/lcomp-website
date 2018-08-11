@@ -12,6 +12,8 @@
                    href="{{ route("about.index") }}">@lang('header.about-us')</a>
                 <a class="nav-item nav-link @if(Route::current()->getName() == 'contact.index') active @endif"
                    href="{{ route("contact.index") }}">Contact</a>
+                <a class="nav-item nav-link @if(Route::current()->getName() == 'brochure.index') active @endif"
+                   href="{{ route("brochure.index") }}">Folder</a>
             </div>
         </div>
     </nav>

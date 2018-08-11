@@ -17,3 +17,4 @@ mix.js('resources/assets/js/app.js', 'public/js')
     .version();
 mix.webpackConfig({ devtool: "inline-source-map" });
 mix.copy('resources/assets/images', 'public/images');
+mix.copy('resources/assets/files', 'public/files');
