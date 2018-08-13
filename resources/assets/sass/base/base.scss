@@ -54,3 +54,34 @@ h6:after {
 	left: 0.5em;
 	margin-right: -50%;
 }
+
+.isl {
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+}
+
+.partners {
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+}
+
+.partners-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include media-breakpoint-up(md) {
+    display: none;
+  }
+}
+
+.partner-logo {
+  width: 100%;
+  @include media-breakpoint-down(sm) {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

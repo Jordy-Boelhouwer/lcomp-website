@@ -13,6 +13,14 @@
   padding:7px;
 }
 
+.carousel {
+  margin-bottom: 2rem;
+  @include media-breakpoint-down(sm) {
+    margin-bottom: 0;
+    display: none;
+  }
+}
+
 .carousel-item {
   height: 25rem;
 

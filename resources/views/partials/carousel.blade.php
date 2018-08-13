@@ -1,4 +1,4 @@
-<div id="carouselHome" class="carousel slide mb-5" data-ride="carousel">
+<div id="carouselHome" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img class="d-block w-100" src="{{ asset('/images/lcomp-gevel.jpg') }}" alt="First slide">
