@@ -1,15 +1,15 @@
 <form method="POST" action="{{ route('contact.store') }}">
     {{ csrf_field() }}
     <div class="form-group">
-        <label for="firstName">Voornaam</label>
+        <label for="firstName">@lang('contact.first-name')</label>
         <input type="text" class="form-control" id="firstName" name="first_name">
     </div>
     <div class="form-group">
-        <label for="middleName">Tussenvoegsel <small>(optioneel)</small></label>
+        <label for="middleName">@lang('contact.middle-name') <small>(@lang('contact.optional'))</small></label>
         <input type="text" class="form-control" id="middleName" name="middle_name">
     </div>
     <div class="form-group">
-        <label for="lastName">Achternaam</label>
+        <label for="lastName">@lang('contact.last-name')</label>
         <input type="text" class="form-control" id="lastName" name="last_name">
     </div>
     <div class="form-group">
@@ -17,11 +17,11 @@
         <input type="email" class="form-control" id="email" name="email">
     </div>
     <div class="form-group">
-        <label for="question">Uw vraag</label>
+        <label for="question">@lang('contact.question')</label>
         <textarea type="text" class="form-control" id="question" name="question"></textarea>
     </div>
     <div class="form-group">
-        <button type="submit" class="btn btn-primary">Verzenden</button>
+        <button type="submit" class="btn btn-primary">@lang('contact.send')</button>
     </div>
 
     <div class="form-group">
