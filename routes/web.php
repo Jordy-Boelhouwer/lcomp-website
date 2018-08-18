@@ -28,6 +28,11 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
         'as' => 'contact.index'
     ]);
 
+    Route::post('/contact', [
+        'uses' => 'ContactController@store',
+        'as' => 'contact.store'
+    ]);
+
 //About routes
     Route::get('/over-ons', [
         'uses' => 'AboutController@index',
