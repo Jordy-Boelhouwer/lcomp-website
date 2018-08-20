@@ -3,10 +3,13 @@
 @section('title', 'Home')
 
 @section('content')
+
+@include('partials/header')
+<section>
     <div class="container">
         <div class="row">
 			<div class="col-12">
-				@include('partials/carousel')
+				
 			</div>
 			<div class="col-lg-2 col-md-12">
 				@include('partials/leftsidebar/hulp')
@@ -36,4 +39,5 @@
             </div>
         </div>
     </div>
+</section>	
 @endsection

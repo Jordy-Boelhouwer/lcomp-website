@@ -3,6 +3,7 @@
 @section('title', 'Syscal')
 
 @section('content')
+<section>
     <div class="container">
         <div class="row">
 			<div class="col-lg-2 col-md-12">
@@ -48,4 +49,5 @@
 			</div>
         </div>
     </div>
+</section>
 @endsection
