@@ -40,5 +40,5 @@
         </div>
     </div>
 </section>
-@include('partials/applications')	
+@include('partials/footer')	
 @endsection
