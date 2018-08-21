@@ -3,6 +3,7 @@
 @section('title', 'Werkwijze')
 
 @section('content')
+@include('partials/headers/methods')
     <section>
         <div class="container">
             <div class="row">
@@ -13,7 +14,6 @@
                     </div>
                 </div>
                 <div class="col-lg-7 col-sm-12">
-                    <img class="w-100" src="{{asset('/images/image-werkwijze.jpg')}}">
                     <h1 class="mt-3">Onze werkwijze</h1>
                     <p>Onder systeem- en netwerkbeheer vallen alle werkzaamheden die nodig zijn om het netwerk en alle aangesloten apparatuur goed te laten functioneren. Wij zullen periodiek een bezoek aan uw organisatie brengen om u on-site
                         te ondersteunen. Het controleren en inrichten van uw netwerk beveiliging, het creëren van vpn verbindingen voor
@@ -27,7 +27,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-12">
-                    @include('partials/rightsidebar/syscal')
+                    @include('partials/rightsidebar/services')
                     @include('partials/rightsidebar/isl')
                 </div>
 
