@@ -1,8 +1,10 @@
 @extends('layouts.app')
 
-@section('title', 'Syscal')
+@section('title', 'WiFi')
 
 @section('content')
+
+@include('partials/headers/wifi')
 <section>
     <div class="container">
         <div class="row">
@@ -11,36 +13,27 @@
 				@include('partials/leftsidebar/partners')
 			</div>
             <div class="col-lg-7 col-sm-12">
-                <h1>Syscal</h1>
 				<p>
-					<h3>
-						@lang('syscal.prices')
-					</h3>
+					<h1>
+						@lang('services.wifi')
+					</h1>
 				</p>
 				<p>
-					@lang('syscal.prices-text1')
+					@lang('services.wifi-intro')
 				</p>
 				<p>
-					@lang('syscal.prices-text2')
+					<u>@lang('services.wifi-spectrum')</u></br>
+					@lang('services.wifi-spectrum-text1')
 				</p>
 				<p>
-					@lang('syscal.prices-li')
-				</p>
-				<p>
-					@lang('syscal.prices-text3')
-				</p>
-				<p>
-					<b>
-						@lang('syscal.rules')
-					</b>
-				</p>
-				<p>
-						@lang('syscal.rules-li')
+					<u>@lang('services.wifi-meten')</u></br>
+					@lang('services.wifi-meten-text1')
+					<b>@lang('services.wifi-meten-aanvraag')</b>
 				</p>
 				
 			</div>
 			<div class="col-lg-3 col-md-12">
-				@include('partials/rightsidebar/syscal')
+				@include('partials/rightsidebar/services')
                 @include('partials/rightsidebar/isl')				
 			</div>
         </div>

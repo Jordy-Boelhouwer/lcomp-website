@@ -2,7 +2,7 @@
   margin-bottom: 1rem;
   position: relative;
   background-color: black;
-  min-height: 200px;
+  min-height: 100px;
   width: 100%;
   overflow: hidden;
 }
@@ -12,9 +12,19 @@
   top: 50%;
   left: 50%;
   min-width: 100%;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.header img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
   min-height: 100%;
-  width: auto;
-  height: auto;
   z-index: 0;
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
@@ -161,4 +171,14 @@
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+
+.top-header{
+	background-color: #007bff;
+	width: 100%;
+    max-width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+	line-height: 2rem;
+	color: #ffffff;
 }

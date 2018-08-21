@@ -15,9 +15,9 @@ return [
 
     'send-an-email' => 'Send an email',
 
-    'syscal-relieves' => 'Syscal relieves',
+    'Services-relieves' => 'Our Services',
 
-    'syscal-text' => 'More is needed than just delivering a product.
+    'services-text' => 'More is needed than just delivering a product.
     We offer an agreement for general management and accurate care in case of incidents. A relieve for you.',
 
     'external-help' => 'remote help'
