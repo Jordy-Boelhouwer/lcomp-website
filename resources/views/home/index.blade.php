@@ -33,6 +33,7 @@
 			<div class="col-lg-3 col-md-12">
 				@include('partials/rightsidebar/services')
 				@include('partials/rightsidebar/isl')
+				@include('partials/rightsidebar/live-chat')
 			</div>
             <div class="col-lg-2 col-md-12 partners-mobile">
                 @include('partials/leftsidebar/partners')

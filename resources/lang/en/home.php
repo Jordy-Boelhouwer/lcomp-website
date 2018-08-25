@@ -20,6 +20,9 @@ return [
     'services-text' => 'More is needed than just delivering a product.
     We offer an agreement for general management and accurate care in case of incidents. A relieve for you.',
 
-    'external-help' => 'remote help'
+    'external-help' => 'remote help',
+
+    'live-chat' => 'live chat'
+
 
 ];

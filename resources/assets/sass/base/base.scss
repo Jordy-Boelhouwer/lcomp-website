@@ -66,6 +66,12 @@ h6:after {
   }
 }
 
+.live-chat {
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+}
+
 .partners-mobile {
   display: flex;
   flex-direction: column;

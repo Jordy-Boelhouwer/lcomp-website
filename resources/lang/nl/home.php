@@ -22,6 +22,8 @@ return [
     Wij bieden een overeenkomst aan voor algemeen beheer en accurate zorg bij incidenten.
     Voor u een zorg minder',
 
-    'external-help' => 'Hulp op afstand'
+    'external-help' => 'Hulp op afstand',
+
+    'live-chat' => 'live chatten'
 
 ];
