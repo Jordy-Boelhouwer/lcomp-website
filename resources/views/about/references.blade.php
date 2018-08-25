@@ -26,7 +26,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-12">
-                    @include('partials/rightsidebar/syscal')
+                    @include('partials/rightsidebar/services')
                     @include('partials/rightsidebar/isl')
                 </div>
 
@@ -36,4 +36,5 @@
             </div>
         </div>
     </section>
+@include('partials/footer')	
 @endsection

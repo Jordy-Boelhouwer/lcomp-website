@@ -3,10 +3,13 @@
 @section('title', 'Home')
 
 @section('content')
+
+@include('partials/headers/home')
+<section>
     <div class="container">
         <div class="row">
 			<div class="col-12">
-				@include('partials/carousel')
+				
 			</div>
 			<div class="col-lg-2 col-md-12">
 				@include('partials/leftsidebar/hulp')
@@ -28,7 +31,7 @@
 				<img class="w-100 mb-4" alt="" src="{{ asset('/images/LCOMPTeamNieuw1.jpg') }}">
 			</div>
 			<div class="col-lg-3 col-md-12">
-				@include('partials/rightsidebar/syscal')
+				@include('partials/rightsidebar/services')
 				@include('partials/rightsidebar/isl')
 			</div>
             <div class="col-lg-2 col-md-12 partners-mobile">
@@ -36,4 +39,6 @@
             </div>
         </div>
     </div>
+</section>
+@include('partials/footer')	
 @endsection

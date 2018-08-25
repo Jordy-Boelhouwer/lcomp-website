@@ -25,7 +25,6 @@ section {
 }
 
 .navbar {
-  margin-bottom: 1rem;
   border-bottom: 1px solid $black;
 }
 
@@ -84,4 +83,12 @@ h6:after {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+.bg-light {
+    background-color: #ffffff !important;
+}
+
+section { 
+	 margin-top: 1rem;
 }

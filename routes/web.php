@@ -65,32 +65,17 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
         'as' => 'brochure.pagina-2'
     ]);
 
-//Syscal routes
-        Route::get('/applicatiebeheer', [
-            'uses' => 'SyscalController@application',
-            'as' => 'syscal.application'
+//Services routes
+        Route::get('/wifi', [
+            'uses' => 'ServicesController@wifi',
+            'as' => 'services.wifi'
         ]);
-
-        Route::get('/systeembeheer', [
-            'uses' => 'SyscalController@systems',
-            'as' => 'syscal.systems'
+		
+		        Route::get('/cloud', [
+            'uses' => 'ServicesController@cloud',
+            'as' => 'services.cloud'
         ]);
-
-        Route::get('/calamiteitenbeheer', [
-            'uses' => 'SyscalController@calamities',
-            'as' => 'syscal.calamities'
-        ]);
-
-        Route::get('/serviceovereenkomsten', [
-            'uses' => 'SyscalController@service',
-            'as' => 'syscal.service'
-        ]);
-
-        Route::get('/tarieven', [
-            'uses' => 'SyscalController@prices',
-            'as' => 'syscal.prices'
-        ]);
-
+   
 //Information routes
         Route::get('/privacyverklaring', [
             'uses' => 'InformationController@privacy',
