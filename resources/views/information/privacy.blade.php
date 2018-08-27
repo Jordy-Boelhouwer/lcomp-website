@@ -3,6 +3,7 @@
 @section('title', 'Privacy Verklaring')
 
 @section('content')
+@include('partials/headers/privacy')
 <section>
     <div class="container">
         <div class="row">
@@ -11,7 +12,6 @@
 				@include('partials/leftsidebar/partners')
 			</div>
             <div class="col-lg-7 col-sm-12">
-				<img class="w-100 h-50" src="{{asset('/images/image-privacy.jpg')}}">
                 <h1>@lang('information.privacy-title')</h1>
 				<p>
 					@lang('information.privacy-intro-1')
@@ -76,10 +76,10 @@
 			</div>
 			<div class="col-lg-3 col-md-12">
 				@include('partials/rightsidebar/services')
-                @include('partials/rightsidebar/isl')				
+                @include('partials/rightsidebar/isl')
 			</div>
         </div>
     </div>
 </section>
-@include('partials/footer')	
+@include('partials/footer')
 @endsection

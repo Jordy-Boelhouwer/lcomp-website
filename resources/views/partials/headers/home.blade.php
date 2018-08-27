@@ -6,7 +6,7 @@
 	<div class="container h-25">
 		<div class="d-flex text-center h-100">
 			<div class="my-auto w-100 text-white">
-				<h1 class="display-3">Al uw ICT in één hand</h1>
+				<h1 class="display-3">@lang('headers.home')</h1>
 			</div>
 		</div>
 	</div>

@@ -1,7 +1,21 @@
 <?php
 
 return [
-	
+
+	//Automation
+	'automation' => 'Automatisering',
+	'automation-text1' => 'ICT is het kloppend hart van uw organisatie. Alle werkprocessen hangen er van af.
+	 Een storing heeft direct gevolg voor uw productiviteit, de afspraken die u met klanten heeft gemaakt en de tevredenheid van uw medewerkers.
+	  L`Comp is zich daarvan bewust.',
+	'automation-text2' => 'Daarom doen we in onze dienstverlening er al alles aan om storingen te voorkomen.
+	 Hebt u vragen of ondervindt u toch problemen met uw systemen, dan staat ons team voor u klaar om het zo spoedig mogelijk op te lossen.',
+	'automation-text3' => 'Elk bedrijf heeft zijn eigen manier van werken.
+	 Misschien kun je uit de voeten met standaard softwareoplossingen, maar de kans is groot dat je zoekt naar een slimmere vorm van kantoorautomatisering.',
+	'automation-ol-title' => 'Waarom L`Comp;',
+	'automation-li-1' => 'Meer dan 30 jaar ervaring',
+	'automation-li-2' => 'Optimaliseer bedrijfsprocessen',
+	'automation-li-3' => 'Hoe ingewikkeld ook: wij koppelen alles',
+
 	//Wifi
     'wifi' => 'WiFi',
 	'wifi-intro' => 'De eisen die aan hedendaagse draadloze netwerken worden gesteld liggen ver weg bij de eisen zoals deze 5 tot 10 jaar geleden golden.
@@ -21,7 +35,7 @@ return [
 	Bovendien brengen de specialisten van L`Comp ook de randvoorwaarden in kaart.
 	Denk aan de bekabeling en de aanwezigheid van voldoende switchpoorten en het voorzien van de juiste Power over Ethernet ondersteuning. Ook hier geldt: meten is weten!',
 	'wifi-meten-aanvraag' => 'Vraag een netwerk meting aan bij L`Comp',
-	
+
 	//Cloud
 	'cloud' => 'Cloud',
 	'cloud-intro' => 'Onze cloud diensten maken uw werk efficiënter, goedkoper en flexibeler.
@@ -39,9 +53,44 @@ return [
 	'cloud-storage' => 'Cloud Opslag',
 	'cloud-storage-text1' => 'Een schaalbare opslag, beveiligd en overal beschikbaar. Dit kan LComp u bieden met cloud opslag.
 	Werken in de cloud biedt schaalbare mogelijkheden en diverse voordelen.',
-	
+
 	//Consultancy
-	
+	'consultancy' => 'Consultancy',
+	'consultancy-text1' => 'Het doel van onze IT & ICT consultancy diensten is simpel;',
+	'consultancy-text2' => 'Wij willen ervoor zorgen dat klanten door middel van onze dienstverlening maximale waarde halen uit ICT.
+	 Wij doen dit door uitgebreid advies te geven aan klanten hoe hun ICT het beste kan bijdragen aan het behalen van hun operationele-,
+	 en strategische doelstellingen.',
+	'consultancy-text2' => 'Na jaren ervaring kunnen we stellen dat L`Comp zeer bedreven in is consultancy.
+	 Of klanten nou op zoek zijn naar een partij die kan voorzien in een uitgebreid IT advies of naar een partij die ervoor zorgt dat de ICT binnen het bedrijf zo efficiënt mogelijk wordt ingezet; L`Comp beheerst beide aspecten',
+	'consultancy-text3' => 'Benieuwd naar de mogelijkheden? Neem dan gerust contact met ons op en we geven jou advies op maat.',
+
 	//Reparaties
-	
+	'repair' => 'Reparaties',
+	'repair-text1' => 'Op onze locatie in Landsmeer hebben wij een eigen technische dienst waar wij reparaties – voorinstallatie uitvoeren voorzowel zakelijk als particuliere klanten.',
+	'repair-text2' => 'Laptop / Desktop / Tablet / Telefoon reparties worden uitgevoerd',
+	'repair-text3' => 'Een goed werkende, snelle computer is onmisbaar, ook voor particulieren!
+	 Misschien loopt uw PC snel vast, valt deze plotseling uit of geeft hij een blauw of zwart scherm.
+	 internet. Snelle en persoonlijke service staat voor L`Comp centraal.',
+	'repair-most-title' => 'MEEST VOORKOMENDE PC REPARATIES',
+	'repair-most-text1' => 'Neem contact met ons op om de situatie van uw PC te bespreken. Wij kunnen dan een prijs en afspraak op maat voor u maken.',
+	'repair-li-1' => 'Windows / MacOS installatie',
+	'repair-li-2' => 'Scherm vervangen',
+	'repair-li-3' => 'Oplaad poort vervangen',
+	'repair-li-4' => 'Stof, Lawaai, Oververhitting',
+	'repair-li-5' => 'Ventilator',
+	'repair-li-6' => 'Toetsenbord vervangen',
+	'repair-li-7' => 'Batterij vervangen',
+	'repair-li-8' => 'Waterschade ultrasoon schoonmaken',
+	'repair-li-9' => 'Moederboard reparatie',
+	'repair-li-10' => 'Videokaart Reparatie/Vervangen',
+	'repair-li-11' => 'Onderzoeken & Diagnoses stellen',
+
+	//voip
+	'voip' => 'VOIP',
+	'voip-title1' => 'VOIP',
+	'voip-text1' => 'Met de komst van Voice over IP (VoIP) is telefonie en IT dezelfde technologie geworden.
+ 	De telefoon en de computer zijn aangesloten met dezelfde netwerkkabel en beide maken over het internet (via het Internet Protocol – IP) verbinding met collega’s en de buitenwereld.
+	Het is dus niet meer dan logisch dat de IT-partner ook de verantwoordelijkheid heeft over telefonie. Eén betrouwbare partner die adviseert en ondersteunt op alle gebieden van communicatie, mobiel werken en de cloud.
+	',
+
 ];

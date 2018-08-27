@@ -66,16 +66,41 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
     ]);
 
 //Services routes
+        Route::get('/automatisering', [
+            'uses' => 'ServicesController@automation',
+            'as' => 'services.automation'
+        ]);
+
         Route::get('/wifi', [
             'uses' => 'ServicesController@wifi',
             'as' => 'services.wifi'
         ]);
-		
-		        Route::get('/cloud', [
+
+		    Route::get('/cloud', [
             'uses' => 'ServicesController@cloud',
             'as' => 'services.cloud'
         ]);
-   
+
+        Route::get('/consultancy', [
+            'uses' => 'ServicesController@consultancy',
+            'as' => 'services.consultancy'
+        ]);
+
+        Route::get('/reparaties', [
+            'uses' => 'ServicesController@repair',
+            'as' => 'services.repair'
+        ]);
+
+        Route::get('/voip', [
+            'uses' => 'ServicesController@voip',
+            'as' => 'services.voip'
+        ]);
+
+        Route::get('/ictbeheer', [
+            'uses' => 'ServicesController@management',
+            'as' => 'services.management'
+        ]);
+
 //Information routes
         Route::get('/privacyverklaring', [
             'uses' => 'InformationController@privacy',
@@ -87,6 +112,3 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
             'as' => 'information.cookie'
         ]);
 });
-
-
-
