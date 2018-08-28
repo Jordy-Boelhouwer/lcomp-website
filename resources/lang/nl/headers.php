@@ -10,7 +10,7 @@ return [
   'privacy' => 'Privacy verklaring',
   'automation' => 'Automatisering',
   'consultancy' => 'Consultancy',
-  'repair' => 'Repataties',
+  'repair' => 'Reparaties',
   'voip' => 'VOIP',
   'management' => 'ICT Beheer',
 

@@ -87,10 +87,51 @@ return [
 
 	//voip
 	'voip' => 'VOIP',
-	'voip-title1' => 'VOIP',
+	'voip-title1' => 'Voice over ip',
 	'voip-text1' => 'Met de komst van Voice over IP (VoIP) is telefonie en IT dezelfde technologie geworden.
- 	De telefoon en de computer zijn aangesloten met dezelfde netwerkkabel en beide maken over het internet (via het Internet Protocol – IP) verbinding met collega’s en de buitenwereld.
-	Het is dus niet meer dan logisch dat de IT-partner ook de verantwoordelijkheid heeft over telefonie. Eén betrouwbare partner die adviseert en ondersteunt op alle gebieden van communicatie, mobiel werken en de cloud.
-	',
+ 	 De telefoon en de computer zijn aangesloten met dezelfde netwerkkabel en beide maken over het internet (via het Internet Protocol – IP) verbinding met collega’s en de buitenwereld.
+	 Het is dus niet meer dan logisch dat de IT-partner ook de verantwoordelijkheid heeft over telefonie. Eén betrouwbare partner die adviseert en ondersteunt op alle gebieden van communicatie, mobiel werken en de cloud.',
+	'voip-title2' => 'Internetverbindingen',
+	'voip-text2' => 'De toegang tot het internet is tegenwoordig een van de belangrijkste onderdelen van IT en telefonie.
+	 Daar wil je je als ondernemer geen zorgen over maken. Eén internetverbinding voor IT en telefonie of ieder een eigen internetverbinding? Glasvezel,
+ 	 DSL of kabel? Hoeveel overbooking? Welke router/firewall hoort daarbij? Welke snelheid hebben we nodig?',
+	'voip-title3' => 'Mobiele telefonie',
+	'voip-text3' => 'Onze slimme mobiele oplossingen bieden ongeëvenaarde flexibiliteit en functionaliteit.
+	 We bieden zeer voordelige tarieven en een hoge betrouwbaarheid, want we maken gebruik van het radionetwerk van KPN.',
+
+	 //management
+	 'management' => 'ICT Beheer',
+	 'management-intro' => 'Tegenwoordig is ICT één van de belangrijkste onderdelen van een organisatie, zo niet het belangrijkste.
+	  L`Comp onderkent dit belang en staat garant voor de continuïteit van uw ICT, dus die van uw organisatie.
+	 	We leveren alle Managed Services die ervoor zorgen dat uw IT-omgeving probleemloos draait.',
+	'management-title1' => 'Support Desk',
+	'management-text1' => 'L`Comp Automatiseringen BV heeft een eigen support afdeling met technische professionals die op de hoogte zijn van de situatie bij de klant. Een persoonlijke benadering die werkt.',
+	'management-text2' => 'Bij ons krijgt u dus niet elke keer een andere support medewerker aan de lijn waar u de situatie steeds opnieuw aan moet uitleggen',
+	'management-title2' => 'Remote monitoring & beheer',
+	'management-text3' => 'U wilt u kunnen focussen op uw core business en wij willen uw bedrijfscontinuïteit garanderen.
+ 	 Om deze reden kunnen wij op afstand continu in de gaten houden hoe uw ICT presteert en signaleren wij mogelijke issues op tijd,
+	 zodat u daar geen hinder van ondervindt. Zijn er belangrijke updates die gedaan moeten worden, dan zorgen wij dat uw ICT volledig up to date is.',
+	'management-title3' => 'Beheer op locatie – Pro Actief onderhoud',
+	'management-text4' => 'Het kan zijn dat u behoefte heeft aan fysieke ondersteuning op uw werkplek.
+	 We kunnen ad-hoc of op vaste momenten langskomen om uw medewerkers te helpen als er issues zijn of vragen te beantwoorden die er op dat moment zijn. ',
+	'management-title4' => 'Continu ondersteuning bij storing',
+	'management-text5' => 'Ook onderdeel van onze managed services is dat wij 24 uur per dag bereikbaar zijn in het geval van storing of andere problemen.
+	 Uiteraard proberen wij problemen op tijd te monitoren en maken wij gebruik van geautomatiseerde activiteiten om zo adequaat mogelijk ICT-beheer uit te voeren.
+	 Maar het kan zijn dat u ons op een ongebruikelijke tijd nodig hebt en dan zullen wij ook voor u klaar staan.',
+	'management-text6' => 'IT Servicedesk,  Systeembeheer en uw eigen virtuele ICT manager',
+	'management-title5' => 'Uw “eigen” externe IT afdeling, toegankelijk en altijd beschikbaar !',
+	'management-text7' => 'L`Comp biedt een volledige outsourced IT afdeling voor bedrijven en organisaties met 5-150 werkplekken.
+	 Van IT Servicedesk voor snelle hulp bij storingen en gebruikersvragen tot IT manager voor uitzetten en uitvoeren van IT beleid.
+	 U kunt uw systeembeheer volledig aan LComp uitbesteden, waarbij heldere afspraken worden gemaakt over het gewenste serviceniveau.
+	 Onze focus ligt op het optimaal laten functioneren van uw IT systemen en applicaties, het bieden van toegankelijke IT ondersteuning en het voorkomen van storingen.
+	 Hiervoor bieden wij speciale managed services afgestemd op serverbeheer, werkplekbeheer, cloud IT beheer en IT beveiliging waarborgen wij uw systeem- en datacontinuïteit.
+	 Heeft u een eigen systeembeheerder ? Daarvoor bieden wij ook mogelijkheden voor IT ondersteuning op afroep en sparring als het gaat om het nemen van “moeilijke” beslissingen.
+	 Zo kunnen u en uw systeembeheerder óók profiteren van onze IT expertise, opgedaan in meer dan 30 jaar.
+	 Wij bieden systeembeheer en IT advies voor op Microsoft, Mac OS, Microsoft Azure platform gebaseerde IT omgevingen, zowel on-premise, hybride en 100% Cloud.
+	 Inclusief software en applicaties als Microsoft Office, Office 365, MS Exchange server, op MS SQL en MySQL gebaseerde applicaties en nog veel meer.
+	 Wij  kunnen ook uw softwarelicentie- en IT contract beheer verzorgen, zodat u compliant bent met licentiebepalingen en overzicht houdt over uw investeringen in softwarelicenties en IT contracten.
+	 Omdat geen organisatie hetzelfde is bieden wij onze IT diensten op maat, afgestemd op uw organisatie, wensen en budget.
+	 Wij informeren u graag over de mogelijkheden !
+	'
 
 ];
