@@ -25,10 +25,10 @@
                 "theme": "classic",
                 "position": "bottom-right",
                 "content": {
-                    "message": "Lcomp.nl gebruikt cookies om het gebruik van de website gemakkelijker te maken. Bezoek je onze website, dan ga je akkoord met deze ",
+                    "message": "@lang('common.cookie-message')",
                     "dismiss": "Verberg deze melding",
                     "link": "Cookies",
-                    "href": "www.lcomp.nl/privacyverklaring"
+                    "href": "{{ route('information.privacy') }}"
                 }
             })});
     </script>
