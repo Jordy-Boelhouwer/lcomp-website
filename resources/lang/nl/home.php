@@ -2,17 +2,27 @@
 
 return [
 
-    'text-intro' => 'Automatisering en Informatievoorziening ondersteunt het functioneren binnnen een organisatie 
-    en speelt hiermee een belangrijke rol in effectiviteit. Het inrichten, beheren en functioneren zijn ‘de tools’ van de ICT infrastructuur. 
-    Ook het up-to-date houden van applicaties is van belang omdat de technische ontwikkelingen elkaar snel op volgen. 
-    Daarnaast dienen de kosten aanvaardbaar te blijven. 
-    Voor middelgrote en kleinere organisaties is het vaak onbetaalbaar om een fulltime netwerk/systeembeheerder in dienst te nemen.',
+    'text-paragraph-1' => 'Wij lossen uw problemen en vraagstukken graag op;
+        Oplossings- en resultaat gericht denken, korte persoonlijke lijnen en snelle service zijn onze kenmerken.
+        Waarmee kunnen wij u van dienst zijn?',
 
-    'text' => 'L’Comp biedt u de oplossing om zonder een vaste kracht een passende automatisering en informatievoorziening in huis te hebben. 
-    Wij zijn een jonge onderneming en wij hebben de benodigde kennis en ervaring op het gebied van systeem- en netwerkbeheer. 
-    Dit te samen met onze service en ondersteuning bieden wij u een, in de markt unieke, totale service; “alles in een hand”',
+    'text-header-1' => 'ICT Support & Beheer MKB',
 
-    'need-help' => 'hulp nodig?',
+    'text-paragraph-2' => '“Automatisering is een middel en geen doel op zich. Het is een bedrijfsmiddel dat u in staat stelt uw werk te doen. 
+    Als het niet goed werkt zijn er irritaties en frustraties. En het kost tijd en geld door de verloren productieve uren.
+    Als gespecialiseerde systeembeheerders voor MKB bedrijven zorgen we ervoor dat problemen worden voorkomen, 
+    fouten worden opgelost en risico’s worden vermeden”.',
+
+    'text-paragraph-3' => 'L’Comp biedt u de oplossing om zonder een vaste kracht een passende automatisering en informatievoorziening in huis te hebben. 
+    Wij zijn een flexibele onderneming en hebben de benodigde kennis en ervaring op het gebied van systeem- en netwerkbeheer, 
+    cloud diensten, telecom. Dit te samen met onze service en ondersteuning bieden wij u een, in de markt unieke, 
+    totale service; “alles in een hand”',
+
+    'text-header-2' => 'ICT zonder zorgen',
+
+    'text-paragraph-4' => 'Wilt u zekerheid over uw IT-voorzieningen? 
+    Met ons systeembeheer/netwerkbeheer maken we het mogelijk. 
+    Betrouwbaar, 24/7 én voor elk budget.',
 
     'send-an-email' => 'Stuur een email',
 

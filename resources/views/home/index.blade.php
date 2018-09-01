@@ -19,15 +19,28 @@
 			</div>
 
 			<div class="col-lg-7 col-sm-12">
-				<h1>L’Comp Automatiseringen</h1>
+				<h1>@lang('common.lcomp')</h1>
 				<p>
-					<b>
-						@lang('home.text-intro')
-					</b>
+					@lang('home.text-paragraph-1')
 				</p>
+
+				<b>
+					@lang('home.text-header-1')
+				</b>
+
 				<p>
-					@lang('home.text')
+					<i>@lang('home.text-paragraph-2')</i>
 				</p>
+
+				<p>
+					@lang('home.text-paragraph-3')
+				</p>
+
+				<b>
+					@lang('home.text-header-2')
+				</b>
+
+				<p>@lang('home.text-paragraph-4')</p>
 				<img class="w-100 mb-4" alt="" src="{{ asset('/images/LCOMPTeamNieuw1.jpg') }}">
 			</div>
 			<div class="col-lg-3 col-md-12">

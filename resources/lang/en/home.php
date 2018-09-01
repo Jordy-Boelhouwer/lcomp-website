@@ -2,14 +2,29 @@
 
 return [
 
-    'text-intro' => 'Automation and information provision supports the functioning within an organization
-    and thus plays an important role in effectiveness. Setting up, managing and functioning are \'the tools\' of the ICT infrastructure.
-    Keeping applications up-to-date is also important because technical developments follow each other quickly.
-    In addition, the costs must remain acceptable. For medium-sized and smaller organizations, 
-    it is often unaffordable to employ a full-time network / system administrator.',
-    'text' => '\'L\'Comp offers you the solution to have a suitable automation and information supply in house without a fixed force.
-    We are a young company and we have the necessary knowledge and experience in the area of ​​system and network management.
-    Together with our service and support, we offer you a total service that is unique in the market; "Everything in one hand" \'',
+    'text-paragraph-1' => 'We gladly solve your problems and issues;
+        Solution and result-oriented thinking, short personal lines and fast service are our characteristics.
+        What can we be of service to?',
+
+    'text-header-1' => 'ICT Support & Management SME',
+
+    'text-paragraph-2' => '"Automation is a means and not an end in itself. 
+    It is a business asset that enables you to do your job.
+    If it does not work properly, there are irritations and frustrations, 
+    And it takes time and money through the lost productive hours.
+    As specialized system administrators for SMEs, we ensure that problems are prevented,
+    mistakes are solved and risks are avoided".',
+
+    'text-paragraph-3' => 'L\'Comp offers you the solution to have an appropriate automation and information provision in house without a fixed force.
+    We are a flexible company and have the necessary knowledge and experience in the area of ​​system and network management,
+    cloud services, telecom. Together with our service and support, we offer you a unique market
+    total service; "Everything in one hand"',
+
+    'text-header-2' => 'ICT without worries',
+
+    'text-paragraph-4' => 'Do you want assurance about your IT facilities?
+    We make it possible with our system management / network management.
+    Reliable, 24/7 and for every budget.',
 
     'need-help' => 'Need help?',
 
