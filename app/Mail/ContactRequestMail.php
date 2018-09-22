@@ -8,7 +8,7 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class ContactRequestSent extends Mailable
+class ContactRequestMail extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -31,6 +31,6 @@ class ContactRequestSent extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.contact-request-sent');
+        return $this->markdown('emails.contact-request');
     }
 }

@@ -17,7 +17,7 @@
         <input type="email" class="form-control" id="email" name="email" required>
     </div>
     <div class="form-group">
-        <label for="question">@lang('contact.question')</label>
+        <label for="question">@lang('contact.question') <small>(Max 500 karakters)</small></label>
         <textarea type="text" class="form-control" id="question" name="question" required></textarea>
     </div>
     <div class="form-group">

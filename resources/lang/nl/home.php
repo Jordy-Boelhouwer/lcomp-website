@@ -26,6 +26,8 @@ return [
 
     'send-an-email' => 'Stuur een email',
 
+    'need-help' => 'Hulp nodig?',
+
     'services-relieves' => 'Onze Diensten',
 
     'services-text' => 'Er is meer nodig dan alleen het leveren van een proeduct.

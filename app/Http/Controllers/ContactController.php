@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Mail\ContactRequestSent;
-use Illuminate\Http\Request;
 use App\ContactRequest;
+use App\Mail\ContactRequestSentMail;
+use App\Mail\ContactRequestMail;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
@@ -21,7 +22,7 @@ class ContactController extends Controller
             'first_name' => 'required',
             'last_name' => 'required',
             'email' => 'required',
-            'question' => 'required'
+            'question' => 'required|max:500'
         ]);
 
         $contactRequest = ContactRequest::create([
@@ -32,7 +33,9 @@ class ContactController extends Controller
             'question' => request('question')
         ]);
 
-        Mail::to($contactRequest)->send(new ContactRequestSent($contactRequest));
+        Mail::to($contactRequest)->send(new ContactRequestSentMail($contactRequest));
+
+        Mail::to("jordyboelhouwer@hotmail.com")->send(new ContactRequestMail($contactRequest));
 
         return redirect('/');
     }

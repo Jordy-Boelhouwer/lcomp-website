@@ -8,9 +8,6 @@
 <section>
     <div class="container">
         <div class="row">
-			<div class="col-12">
-				
-			</div>
 			<div class="col-lg-2 col-md-12">
 				@include('partials/leftsidebar/hulp')
                 <div class="partners">
@@ -48,6 +45,7 @@
 				@include('partials/rightsidebar/isl')
 				@include('partials/rightsidebar/live-chat')
 			</div>
+
             <div class="col-lg-2 col-md-12 partners-mobile">
                 @include('partials/leftsidebar/partners')
             </div>

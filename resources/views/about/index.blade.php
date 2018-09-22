@@ -6,42 +6,61 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <h1>Over ons</h1>
-                </div>
-
-                <div class="col">
-                    <div class="card" id="about">
-                        <img class="card-img-top" src="{{asset('/images/image-werkwijze.jpg')}}" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Werkwijze</h4>
-                            <p class="card-text">Wij verzorgen uw systeem- en netwerkbeheer, ook op afstand (remote).</p>
-                            <a href="{{ route("about.methods") }}" class="btn btn-primary">Lees meer</a>
-                        </div>
+                <div class="col-lg-2 col-md-12">
+                    @include('partials/leftsidebar/hulp')
+                    <div class="partners">
+                        @include('partials/leftsidebar/partners')
                     </div>
                 </div>
+                <div class="col-lg-7 col-sm-12">
+                    <h1>@lang('about.text-header-1')</h1>
+                    <p>
+                        @lang('about.text-paragraph-1')
+                    </p>
 
-                <div class="col">
-                    <div class="card" id="about">
-                        <img class="card-img-top" src="{{asset('/images/image-referenties.jpg')}}" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Referenties</h4>
-                            <p class="card-text">L’Comp is reeds sinds 1986 actief. In deze periode hebben wij een uitgebreide klantenkring opgebouwd met
-                                allen hun eigen vraagstukken.</p>
-                            <a href="{{ route("about.references") }}" class="btn btn-primary">Lees meer</a>
-                        </div>
-                    </div>
+                    <p>
+                        @lang('about.text-paragraph-2')
+                    </p>
+
+                    <p>
+                        @lang('about.text-paragraph-3')
+                    </p>
+
+                    <p>
+                        @lang('about.text-paragraph-4')
+                    </p>
+
+                    <p>
+                        <b>@lang('about.text-header-2')</b>
+                        <ul>
+                            <li>
+                                @lang('about.list-item-1')
+                            </li>
+
+                            <li>
+                                @lang('about.list-item-2')
+                            </li>
+                            <li>
+                                @lang('about.list-item-3')
+                            </li>
+                            <li>
+                                @lang('about.list-item-4')
+                            </li>
+                            <li>
+                                @lang('about.list-item-5')
+                            </li>
+                        </ul>
+                    </p>
                 </div>
 
-                <div class="col">
-                   <div class="card" id="about">
-                       <img class="card-img-top" src="{{asset('/images/image-privacy.jpg')}}" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Privacy</h4>
-                            <p class="card-text">L’Comp Automatiseringen B.V. is een automatiseringsbureau die zich richt op de zakelijke en particuliere markt.</p>
-                            <a href="{{ route("information.privacy") }}" class="btn btn-primary">Lees meer</a>
-                        </div>
-                    </div>
+                <div class="col-lg-3 col-md-12">
+                    @include('partials/rightsidebar/services')
+                    @include('partials/rightsidebar/isl')
+                    @include('partials/rightsidebar/live-chat')
+                </div>
+
+                <div class="col-lg-2 col-md-12 partners-mobile">
+                    @include('partials/leftsidebar/partners')
                 </div>
             </div>
         </div>
