@@ -44,7 +44,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
         'as' => 'about.methods'
     ]);
 
-    Route::get('/referenties', [
+    Route::get('/referenties2', [
         'uses' => 'AboutController@references',
         'as' => 'about.references'
     ]);
@@ -110,5 +110,15 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
         Route::get('/cookies', [
             'uses' => 'InformationController@cookie',
             'as' => 'information.cookie'
+        ]);
+
+        Route::get('/referenties', [
+            'uses' => 'InformationController@references',
+            'as' => 'information.references'
+        ]);
+
+        Route::get('/verwerkersovereenkomst', [
+            'uses' => 'InformationController@processor',
+            'as' => 'information.processor'
         ]);
 });

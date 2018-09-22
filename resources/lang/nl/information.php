@@ -42,4 +42,10 @@ return [
 				   <li>Van maandag t/m vrijdag tussen 09:00 en 18:00 en zaterdag tussen 10:00 en 16:00 uur zijn wij telefonisch bereikbaar op 020 482 444 0 bereikbaar.</li>
 				   <li>Voor vragen over privacy en gegevensbescherming kunt u ons mailen op gdpr@lcomp.nl. Voor algemene vragen kunt u contact opnemen met info@lcomp.nl.</li>
 	           </ul>',
+
+    //Cookie
+
+    //Verwerkersovereenkomst
+    'processor-title' => 'Verwerkersovereenkomst',
+
 ];

@@ -17,9 +17,9 @@ return [
 	'automation-li-3' => 'Hoe ingewikkeld ook: wij koppelen alles',
 
 	//Wifi
-    'wifi' => 'WiFi',
+  'wifi' => 'WiFi',
 	'wifi-intro' => 'De eisen die aan hedendaagse draadloze netwerken worden gesteld liggen ver weg bij de eisen zoals deze 5 tot 10 jaar geleden golden.
-	WiFi was ‘handig en leuk om te  hebben’, maar geldt tegenwoordig als het primaire onmisbare schakel. Waar dekking als uitgangspunt gold, vraagt de gebruiker nu capaciteit.
+  WiFi was ‘handig en leuk om te  hebben’, maar geldt tegenwoordig als het primaire onmisbare schakel. Waar dekking als uitgangspunt gold, vraagt de gebruiker nu capaciteit.
 	Laptops, met vastomlijnde WiFi specificaties, zijn verdrongen door de Bring-Your-Own-Device trend.
 	Voor een optimaal functionerend en stabiel netwerk is een grondige Site Survey (netwerk meting) met Spectrum Analyse daarom van belang!',
 	'wifi-spectrum' => 'Spectrum Analyse',

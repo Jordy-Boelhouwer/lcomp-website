@@ -13,4 +13,12 @@ class InformationController extends Controller
     public function cookie() {
         return view('information.cookie');
     }
+
+    public function references() {
+        return view('information.references');
+    }
+
+    public function processor(){
+      return view('information.processor');
+    }
 }

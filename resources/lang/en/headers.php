@@ -2,17 +2,16 @@
 
 return [
 
-  'home' => 'Al uw ICT in één hand',
+  'home' => 'All your ICT in one hand',
 	'wifi' => 'Wifi',
 	'cloud' => 'Cloud Services',
 	'methods' => 'Werkwijze',
 	'references' => 'Referenties',
   'privacy' => 'Privacy verklaring',
-  'automation' => 'Automatisering',
+  'automation' => 'Automation',
   'consultancy' => 'Consultancy',
-  'repair' => 'Reparaties',
+  'repair' => 'Repairs',
   'voip' => 'VOIP',
-  'management' => 'ICT Beheer',
-  'processor' => 'Verwerkersovereenkomst',
+  'management' => 'ICT Management',
 
 ];

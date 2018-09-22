@@ -1,153 +1,137 @@
 <?php
 
 return [
-    //Applicatiebeheer
-    'application' => 'Application management',
-    'application-text1' => 'Na de implementatie van applicaties (toepassingssoftware) is vaak beheer en onderhoud hiervan nodig.
-	Denk hierbij onder meer aan het installeren van updates, opschonen van databestanden, toevoegen en verwijderen van gebruikers,
-	printerinstellingen en al die andere zaken die nodig zijn om &apos;het&apos; optimaal te laten functioneren.',
-    'application-text2' => 'Binnen organisaties ontbreekt vaak de tijd en de specialistische kennis om deze taken uit te voeren.
-	Wij bieden via onze service overeenkomsten, of op ad-hoc basis, mogelijkheden om dit applicatiebeheer voor u uit te voeren.',
-    'office' => 'Office programma&apos;s',
-    'office-text' => 'Voor Microsoft Office applicaties kan door actief beheer een sterk verbeterde efficiëntie en functionaliteit worden bereikt.
-	Denk hierbij aan de implementatie van een huisstijl door gebruik van gemeenschappelijke sjablonen of vereenvoudigt documentbeheer
-	door het bieden van een gestructureerde opslagmethode. Zeker als er gebruik gemaakt wordt van een volledige Office suite
-	in combinatie met de Microsoft Backoffice producten kan via beheer en onderhoud de installatie wordt geoptimaliseerd voor maximaal rendement.',
-    'business' => 'Business programma&apos;s',
-    'business-text' => 'Beheer en onderhoud van business applicaties is vaak een probleem apart. Normaal gesproken zou dit geregeld moeten zijn via de leveranciers
-	van deze applicaties. Maar deze blijken door tal van oorzaken niet altijd toegerust om dit soort specialistische werkzaamheden tot een goed einde te brengen.
-	Wij kunnen u hierin behulpzaam zijn.',
-    'customwork' => 'Maatwerk programmas',
-    'customwork-text' => 'Voor veel &apos;verouderde&apos; of maatwerk oplossingen is helemaal geen onderhoud- en/of beheeroplossing beschikbaar.
-	Dit terwijl deze toepassingen wel van essentieel belang voor u organisatie kunnen zijn. Als deze oplossingen &apos;draaien&apos; op een windows platform,
-	kunt wij altijd dergelijke systemen in onderhoud te nemen.',
 
-    //Systeembeheer
-    'system' => 'Systeembeheer',
-    'system-text' => 'Systeembeheer is gericht op onderhoud en beheer van hardware, operating systems software en backoffice software en netwerken.
-	Onze doelstelling is het bieden van een betrouwbaar en functioneel standaardplatform waarvan de kosten (TCO/Total Cost of Ownership) laag en voorspelbaar zijn.',
-    'operating' => 'Operating system software',
-    'operating-text' => 'De belangrijkste centrale component van de IT-infrastructuur is de operating system software.
-	Vooral met behulp van Windows 2000 en Windows XP is het mogelijk om een zeer betrouwbare, onderhoudsarme en functionele infrastructuur te realiseren.
-	Bij beheer en onderhoud besteden wij aandacht aan de volgende punten:',
-    'modifications' => 'Applicatiebeheer',
-    'modifications-text' => 'Wij voeren wijzigingen door in de systemen zodat deze blijven aansluiten bij de wensen van de organisatie.
-	Denk hierbij aan het aanmaken en verwijderen van gebruikers of toekennen van printers, schijfruimte en al die andere resources die binnen de infrastuctuur aanwezig zijn.',
-    'disturbances' => 'Storingen',
-    'disturbances-text' => 'Verhelpen van storingen. Binnen de overeenkomst wordt hiervoor een vaste responsetijd van 8 uur afgesproken.
-	Door preventief beheer proberen we storingen te voorkomen.',
-    'updates' => 'Updates en servicepacks',
-    'updates-text' => 'Regelmatig worden updates en servicepacks uitgebracht. Wij zorgen dat de noodzakelijke updates en servicepacks
-	geïnstalleerd worden zodat de infrastructuur up-to-date blijft.',
-    'virus' => 'Virus bescherming',
-    'virus-text' => 'Virussen zijn in deze tijd van e-mail en internet een groeiend probleem. Gelukkig kunnen wij zorgen dat u zich hierover geen zorgen hoeft te maken.
-	Door toepassen van de juiste software en antivirus strategie vormt deze ontwikkeling geen gevaar voor uw automatisering.',
-    'backups' => 'Back-ups',
-    'backups-text' => 'We zorgen voor een betrouwbare en eenvoudige procedure waarin al uw gegevens veilig worden gesteld.',
-    'availabilty' => 'Beschikbaarheid',
-    'availabilty-text' => 'Bij beheer en onderhoud besteden we ook veel aandacht aan het verhogen van de beschikbaarheid van de systemen.
-	Goede performance kan in de meeste gevallen worden bereikt door optimale configuratie van de backoffice en operating system software op servers en werkstations.
-	In ons beheer houden wij hier rekening mee.',
-    'deployment' => 'Deployment / Uitbreidingen',
-    'deployment-text' => 'Wij zorgen voor een eenvoudig mechanisme om software te distribueren over het netwerk. Hierdoor is de installatie van operating systems,
-	office en business software eenvoudig en kost weinig tijd.',
-    'hardware' => 'Hardware',
-    'hardware-text' => 'Hardware is tegenwoordig onderhoudsvrij. Binnen het beheersplan kijken we echter wel naar de "oudheid" van de hardware
-	en adviseren wij over de vervanging van verouderde apparatuur. Daarnaast brengen wij de kritieke onderdelen van de hardware infrastructuur in beeld
-	zodat in geval van calamiteiten vervangende apparatuur beschikbaar is. Wij zijn merkonafhankelijk en volgen de voorkeur van onze klanten in de aanschaf van apparatuur.',
-    'backoffice' => 'Backoffice software',
-    'backoffice-text' => 'Wij bieden beheer voor de belangrijkste backoffice producten van Microsoft. Denk hierbij vooral aan de Exchange Server en SQL Server producten.
-	Systeembeheer bestaat bij deze producten uit het beschikbaar maken van deze services en oplossen van operationele problemen.
-	Beheer van de backoffice producten is vaak gekoppeld aan het beheer van de operating system software.',
+	//Automation
+	'automation' => 'Automation',
+	'automation-text1' => 'ICT is het kloppend hart van uw organisatie. Alle werkprocessen hangen er van af.
+	 Een storing heeft direct gevolg voor uw productiviteit, de afspraken die u met klanten heeft gemaakt en de tevredenheid van uw medewerkers.
+	  L`Comp is zich daarvan bewust.',
+	'automation-text2' => 'Daarom doen we in onze dienstverlening er al alles aan om storingen te voorkomen.
+	 Hebt u vragen of ondervindt u toch problemen met uw systemen, dan staat ons team voor u klaar om het zo spoedig mogelijk op te lossen.',
+	'automation-text3' => 'Elk bedrijf heeft zijn eigen manier van werken.
+	 Misschien kun je uit de voeten met standaard softwareoplossingen, maar de kans is groot dat je zoekt naar een slimmere vorm van kantoorautomatisering.',
+	'automation-ol-title' => 'Waarom L`Comp;',
+	'automation-li-1' => 'Meer dan 30 jaar ervaring',
+	'automation-li-2' => 'Optimaliseer bedrijfsprocessen',
+	'automation-li-3' => 'Hoe ingewikkeld ook: wij koppelen alles',
 
-    //Calamiteitenbeheer
-    'calamities' => 'Calamiteitenbeheer',
-    'disturbances2' => 'Storingen',
-    'disturbances2-text' => 'Meestal merkt u pas bij een storing hoe afhankelijk u bent van uw geautomatiseerde systemen.
-	Als gevolg van hard- of software storingen kunnen essentiele bedrijfsprocessen stilvallen waardoor aanzienlijke schade ontstaat.
-	Wij kunnen helpen met het oplossen en voorkomen van storingen. Niet alleen door ons producten- en dienstenaanbod,
-	maar ook door onze bedrijfscultuur waarin het correct functioneren van de systemen van onze klanten een absolute topprioriteit heeft.',
-    'softwaredisturbances' => 'Storingen in de software',
-    'softwaredisturbances-text' => 'De meeste storingen worden veroorzaakt door software.
-	Omdat wij zowel infrastructuur als applicaties beheren is het voor ons meestal eenvoudig om het probleem op te sporen en op te lossen.
-	Naast het oplossen van storingen besteden wij ook veel tijd aan het voorkomen van storingen.
-	Zeker storingen in software kunnen worden voorkomen door een goede systeemconfiguratie.',
-    'hardwaredisturbances' => 'Backoffice software',
-    'hardwaredisturbances-text' => 'Hardware van voldoende kwaliteit blijkt tegenwoordig nagenoeg storingsvrij.
-	Door gebruik te maken van RAID systemen wordt zelfs de kans op een fatale schijfcrash tot het minimum beperkt.
-	Mocht er zich onverhoopt toch een storing voordoen, dan kunnen wij als onafhankelijk leverancier in de meeste gevallen snel vervangende onderdelen of apparatuur leveren.
-	Tevens zorgen we dan dat het gerepareerde apparaat wordt ingepast in de infrastructuur zodat deze weer opereert zoals u dat gewent bent.',
+	//Wifi
+  'wifi' => 'WiFi',
+	'wifi-intro' => 'De eisen die aan hedendaagse draadloze netwerken worden gesteld liggen ver weg bij de eisen zoals deze 5 tot 10 jaar geleden golden.
+  WiFi was ‘handig en leuk om te  hebben’, maar geldt tegenwoordig als het primaire onmisbare schakel. Waar dekking als uitgangspunt gold, vraagt de gebruiker nu capaciteit.
+	Laptops, met vastomlijnde WiFi specificaties, zijn verdrongen door de Bring-Your-Own-Device trend.
+	Voor een optimaal functionerend en stabiel netwerk is een grondige Site Survey (netwerk meting) met Spectrum Analyse daarom van belang!',
+	'wifi-spectrum' => 'Spectrum Analyse',
+	'wifi-spectrum-text1' => 'Met een Spectrum Analyse brengen wij toekomstige radiospectrum (2,4 GHz. en 5 GHz.) in kaart.
+	Deze geavanceerde analyse brengt in beeld of het radiospectrum ‘schoon’ genoeg is.
+	Wij brengen storingsbronnen in kaart die van invloed zijn op de kanalen die de AccessPoints gebruiken voor communicatie met de WLAN devices.
+	Denk aan stoorzenders zoals een magnetron of beveiligingscamera’s. Ook bepalen we de kanaal- en vermogensinstellingen voor optimale inrichting van het radiospectrum.
+	Na het afronden van de metingen stelt L’Comp rapportage op van de meetwaarden. Op basis van deze gegevens brengen wij een netwerkadvies uit voor een passende oplossing op maat.',
+	'wifi-meten' => 'Meten is weten!',
+	'wifi-meten-text1' => 'Een WiFi netwerk inrichten zonder de uitvoer van een kundige Site Survey (netwerk meting) op locatie? Dat is vragen om problemen!
+	De meting op locatie is hét vertrekpunt voor de realisatie van een betrouwbaar WLAN.
+	Het geeft inzicht in de benodigde hardware, de precieze positionering en de instellingen zoals kanaalkeuze en zendvermogens.
+	Bovendien brengen de specialisten van L`Comp ook de randvoorwaarden in kaart.
+	Denk aan de bekabeling en de aanwezigheid van voldoende switchpoorten en het voorzien van de juiste Power over Ethernet ondersteuning. Ook hier geldt: meten is weten!',
+	'wifi-meten-aanvraag' => 'Vraag een netwerk meting aan bij L`Comp',
 
-    //Service
-    'service-intro' => 'Door het afsluiten van een serviceovereenkomst is het mogelijk om een vaste dienstverlening voor een vast aantal uren per jaar te garanderen.
-	De overeenkomst behelst systeembeheer/netwerkbeheer, applicatiebeheer, hulp bij storingen (calamiteitenopvang).',
-    'similarities' => 'Overeenkomsten op maat',
-    'similarities-text1' => 'Iedere overeenkomst wordt aangepast aan het aantal PC&apos;s, Servers en Randapparatuur.
-	Standaard wordt uw bedrijf eenmaal per kwartaal door ons bezocht en wordt uw complete systeem door ons op de onderstaande onderdelen bekeken.',
-    'similarities-text2' => 'Voorbeeld: Binnen uw contract heeft u per PC per jaar 7 uur recht op ondersteuning,\
-	van die 7 uur wordt 1 uur per kwartaal gebruikt om de onderstaande werkzaamheden uit te voeren;
-	u heeft per jaar dan 3 uur per PC over om een beroep op ons te doen. Niet gebruikte uren per PC per jaar worden meegenomen naar het volgende jaar.',
-    'overview' => 'Overzicht beschikbare serviceovereenkomsten',
-    'system-network' => 'Systeembeheer/Netwerkbeheer',
-    'serviceagreement' => 'De serviceovereenkomst voor systeembeheer dekt de behoefte die een organisatie heeft met betrekking
-	tot het beheer en het onderhoud van de ICT-infrastructuur. De overeenkomst dekt onder meer de volgende activiteiten:',
-    'system-network-li' => '<ul>
-				   <li>Aanmaken en verwijderen van gebruikers accounts, printers en andere resources.</li>
-				   <li>Verhelpen van softwarestoringen in de infrastructuur.</li>
-				   <li>Installatie van updates en servicepacks.</li>
-				   <li>Beheer van virusbescherming en back-ups.</li>
-				   <li>Verhogen van beschikbaarheid in het algemeen.</li>
-				   <li>Monitoren en indien nodig optimaliseren van performance van de infrastructuur.</li>
-				   <li>Reguliere aanpassingen in de infrastructuur.</li>
-	           </ul>',
-    'service-application-text' => 'De serviceovereenkomst voor applicatiebeheer is applicatie specifiek. Over het algemeen dekt een serviceovereenkomst applicatiebeheer de volgende zaken:',
-    'service-application-li' => '<ul>
-				   <li>Installatie van updates.</li>
-				   <li>Opschonen en beheren van databestanden.</li>
-				   <li>Inrichting van de applicatie.</li>
-				   <li>Oplossen van storingen</li>
-				   <li>Beschikbaar stellen aan gebruikers en inpassen in de infrastructuur.</li>
-	           </ul>',
-    'calamity' => 'Calamiteiten opvang',
-    'calamity-text' => 'De hardware serviceovereenkomst biedt de gebruiker de volgende garanties en diensten (binnen 8 uur aanwezig op de locatie):',
-    'calamity-li' => '<ul>
-				   <li>Vervanging van apparatuur of delen daarvan in geval van storing.</li>
-				   <li>Het hardwaretechnische weer operationeel maken van subsystemen en hoofdsystemen in geval van storing.</li>
-				   <li>Assistentie om bestanden en programma&apos;s weer operationeel te krijgen.</li>
-				   <li>Controle van logfiles op gebreken en problemen in apparatuur.</li>
-				   <li>Preventief vervangen indien daar aanleiding toe is.</li>
-	           </ul>',
+	//Cloud
+	'cloud' => 'Cloud',
+	'cloud-intro' => 'Onze cloud diensten maken uw werk efficiënter, goedkoper en flexibeler.
+	Werkprocessen kunnen versneld worden, de mogelijkheden om te communiceren nemen toe en door ‘de cloud in te gaan’ kunt u overal werken en makkelijk online back-ups maken van alle belangrijke bestanden.
+	Online samenwerken met collega’s, makkelijk bestanden met elkaar delen zonder datalimiet en volledig online werken is mogelijk met de cloud oplossingen van L`Comp Automatiseringen',
+	'cloud-services' => 'Cloud diensten zoals;',
+	'cloud-backup' => 'Cloud Backup',
+	'cloud-backup-text1' => 'Een back-up in de cloud, veilig en betrouwbaar. Dat is wat we met LComp mogelijk maken.
+	Een noodzaak voor zaken als uw administratie, data en andere documenten.',
+	'cloud-hosting' => 'Cloud Hosting',
+	'cloud-hosting-text1' => 'Geen volle schijven, handmatige upgrades of gecrashte servers en verloren data meer: met cloud hosting van Resbo IT voorzien we u in een schaalbare hosting omgeving in de cloud.',
+	'cloud-workplace' => 'Cloud Werken / Werkplek',
+	'cloud-workplace-text1' => 'Cloud werken betekent dat u overal ter wereld, vanaf iedere willekeurige werkplek kunt werken zoals u dat op kantoor ook zou doen.
+	De zelfde programma’s en beschikking over al uw gegevens.',
+	'cloud-storage' => 'Cloud Opslag',
+	'cloud-storage-text1' => 'Een schaalbare opslag, beveiligd en overal beschikbaar. Dit kan LComp u bieden met cloud opslag.
+	Werken in de cloud biedt schaalbare mogelijkheden en diverse voordelen.',
 
-    //Prices
-    'prices' => 'Tarieven',
-    'prices-text1' => 'Wij richten ICT omgevingen in en beheren ze tegen een eerlijke prijs. Wij selecteren de ICT oplossingen met onze klanten.
-	Samen kiezen wij voor de ideale mix van gebruikersgemak, functionaliteit, beschikbaarheid, prestatieniveau en kosten.',
-    'prices-text2' => 'Wilt u zorgeloos werken en vertrouwen op een betrouwbaar IT netwerk? Dan kan met onze  serviceplans.
-	Computer Troubleshooters heeft onder meer managed serviceplans die werkplek-, server- en netwerkbeheer bieden tegen een vast tarief per maand of jaar.
-	Dagelijks wordt uw ICT omgeving op afstand gemonitord. U heeft geen omkijken meer naar uw netwerk
-	en wordt niet geconfronteerd met onvoorziene uitgaven voor beheerskosten. Dit full service beheersconcept tegen een vaste prijs betekent:',
-    'prices-li' => '<ul>
-				   <li>Vaste jaarlijkse beheerskosten</li>
-				   <li>Volledige uitbesteding van het systeembeheer</li>
-				   <li>Monitoring en actief systeembeheer</li>
-				   <li>Snelle response en actie bij (eventuele) calamiteiten</li>
-	           </ul>',
-    'prices-text3' => 'Wilt u overstappen van uw huidige contract naar full service beheersconcept tegen een vaste prijs, dan inventariseren wij eerst uw huidige ICT omgeving.',
-    'rules' => 'Wat zijn de spelregels?',
-    'rules-li' => '<ul>
-				   <li>Elke merk/type PC, Server, printer komt in aanmerking</li>
-				   <li>Voor het aangaan van een contract, doen wij een eerste inventarisatie van uw configuratie; u ontvangt hiervan een kopie.</li>
-				   <li>Uw configuratie dient voorzien te zijn van up-to-date Anti-Virus Software.</li>
-				   <li>Dit kan gelijktijdig geïnstalleerd worden.</li>
-				   <li>Uw configuratie dient voorzien te zijn van een Back-up mogelijkheid, ook dit kan gelijktijdig geïnstalleerd worden.</li>
-				   <li>Het SYSCAL contract heeft een minimale looptijd van 1 jaar.</li>
-				   <li>Opzeggen twee maanden voor vervaldatum.</li>
-				   <li>Uitbreidingen van uw configuratie meldt u aan L&apos;Comp</li>
-				   <li>U bepaald de dag per kwartaal dat L&apos;Comp langs komt of remote onderhoud uitvoert.</li>
-				   <li>Niet gebruikte uren kunnen meegenomen worden naar volgend jaar</li>
-				   <li>Per kwartaal ontvangt u een overzicht van de gebruikte uren</li>
-				   <li>Indien de werkzaamheden per jaar de afgesproken uren overschrijden, vindt nacalculatie plaats.</li>
-				   <li>Facturering geschiedt vooraf.</li>
-	           </ul>',
+	//Consultancy
+	'consultancy' => 'Consultancy',
+	'consultancy-text1' => 'Het doel van onze IT & ICT consultancy diensten is simpel;',
+	'consultancy-text2' => 'Wij willen ervoor zorgen dat klanten door middel van onze dienstverlening maximale waarde halen uit ICT.
+	 Wij doen dit door uitgebreid advies te geven aan klanten hoe hun ICT het beste kan bijdragen aan het behalen van hun operationele-,
+	 en strategische doelstellingen.',
+	'consultancy-text2' => 'Na jaren ervaring kunnen we stellen dat L`Comp zeer bedreven in is consultancy.
+	 Of klanten nou op zoek zijn naar een partij die kan voorzien in een uitgebreid IT advies of naar een partij die ervoor zorgt dat de ICT binnen het bedrijf zo efficiënt mogelijk wordt ingezet; L`Comp beheerst beide aspecten',
+	'consultancy-text3' => 'Benieuwd naar de mogelijkheden? Neem dan gerust contact met ons op en we geven jou advies op maat.',
+
+	//Reparaties
+	'repair' => 'Repair service',
+	'repair-text1' => 'Op onze locatie in Landsmeer hebben wij een eigen technische dienst waar wij reparaties – voorinstallatie uitvoeren voorzowel zakelijk als particuliere klanten.',
+	'repair-text2' => 'Laptop / Desktop / Tablet / Telefoon reparties worden uitgevoerd',
+	'repair-text3' => 'Een goed werkende, snelle computer is onmisbaar, ook voor particulieren!
+	 Misschien loopt uw PC snel vast, valt deze plotseling uit of geeft hij een blauw of zwart scherm.
+	 internet. Snelle en persoonlijke service staat voor L`Comp centraal.',
+	'repair-most-title' => 'MEEST VOORKOMENDE PC REPARATIES',
+	'repair-most-text1' => 'Neem contact met ons op om de situatie van uw PC te bespreken. Wij kunnen dan een prijs en afspraak op maat voor u maken.',
+	'repair-li-1' => 'Windows / MacOS installatie',
+	'repair-li-2' => 'Scherm vervangen',
+	'repair-li-3' => 'Oplaad poort vervangen',
+	'repair-li-4' => 'Stof, Lawaai, Oververhitting',
+	'repair-li-5' => 'Ventilator',
+	'repair-li-6' => 'Toetsenbord vervangen',
+	'repair-li-7' => 'Batterij vervangen',
+	'repair-li-8' => 'Waterschade ultrasoon schoonmaken',
+	'repair-li-9' => 'Moederboard reparatie',
+	'repair-li-10' => 'Videokaart Reparatie/Vervangen',
+	'repair-li-11' => 'Onderzoeken & Diagnoses stellen',
+
+	//voip
+	'voip' => 'VOIP',
+	'voip-title1' => 'Voice over ip',
+	'voip-text1' => 'Met de komst van Voice over IP (VoIP) is telefonie en IT dezelfde technologie geworden.
+ 	 De telefoon en de computer zijn aangesloten met dezelfde netwerkkabel en beide maken over het internet (via het Internet Protocol – IP) verbinding met collega’s en de buitenwereld.
+	 Het is dus niet meer dan logisch dat de IT-partner ook de verantwoordelijkheid heeft over telefonie. Eén betrouwbare partner die adviseert en ondersteunt op alle gebieden van communicatie, mobiel werken en de cloud.',
+	'voip-title2' => 'Internetverbindingen',
+	'voip-text2' => 'De toegang tot het internet is tegenwoordig een van de belangrijkste onderdelen van IT en telefonie.
+	 Daar wil je je als ondernemer geen zorgen over maken. Eén internetverbinding voor IT en telefonie of ieder een eigen internetverbinding? Glasvezel,
+ 	 DSL of kabel? Hoeveel overbooking? Welke router/firewall hoort daarbij? Welke snelheid hebben we nodig?',
+	'voip-title3' => 'Mobiele telefonie',
+	'voip-text3' => 'Onze slimme mobiele oplossingen bieden ongeëvenaarde flexibiliteit en functionaliteit.
+	 We bieden zeer voordelige tarieven en een hoge betrouwbaarheid, want we maken gebruik van het radionetwerk van KPN.',
+
+	 //management
+	 'management' => 'ICT Management',
+	 'management-intro' => 'Tegenwoordig is ICT één van de belangrijkste onderdelen van een organisatie, zo niet het belangrijkste.
+	  L`Comp onderkent dit belang en staat garant voor de continuïteit van uw ICT, dus die van uw organisatie.
+	 	We leveren alle Managed Services die ervoor zorgen dat uw IT-omgeving probleemloos draait.',
+	'management-title1' => 'Support Desk',
+	'management-text1' => 'L`Comp Automatiseringen BV heeft een eigen support afdeling met technische professionals die op de hoogte zijn van de situatie bij de klant. Een persoonlijke benadering die werkt.',
+	'management-text2' => 'Bij ons krijgt u dus niet elke keer een andere support medewerker aan de lijn waar u de situatie steeds opnieuw aan moet uitleggen',
+	'management-title2' => 'Remote monitoring & beheer',
+	'management-text3' => 'U wilt u kunnen focussen op uw core business en wij willen uw bedrijfscontinuïteit garanderen.
+ 	 Om deze reden kunnen wij op afstand continu in de gaten houden hoe uw ICT presteert en signaleren wij mogelijke issues op tijd,
+	 zodat u daar geen hinder van ondervindt. Zijn er belangrijke updates die gedaan moeten worden, dan zorgen wij dat uw ICT volledig up to date is.',
+	'management-title3' => 'Beheer op locatie – Pro Actief onderhoud',
+	'management-text4' => 'Het kan zijn dat u behoefte heeft aan fysieke ondersteuning op uw werkplek.
+	 We kunnen ad-hoc of op vaste momenten langskomen om uw medewerkers te helpen als er issues zijn of vragen te beantwoorden die er op dat moment zijn. ',
+	'management-title4' => 'Continu ondersteuning bij storing',
+	'management-text5' => 'Ook onderdeel van onze managed services is dat wij 24 uur per dag bereikbaar zijn in het geval van storing of andere problemen.
+	 Uiteraard proberen wij problemen op tijd te monitoren en maken wij gebruik van geautomatiseerde activiteiten om zo adequaat mogelijk ICT-beheer uit te voeren.
+	 Maar het kan zijn dat u ons op een ongebruikelijke tijd nodig hebt en dan zullen wij ook voor u klaar staan.',
+	'management-text6' => 'IT Servicedesk,  Systeembeheer en uw eigen virtuele ICT manager',
+	'management-title5' => 'Uw “eigen” externe IT afdeling, toegankelijk en altijd beschikbaar !',
+	'management-text7' => 'L`Comp biedt een volledige outsourced IT afdeling voor bedrijven en organisaties met 5-150 werkplekken.
+	 Van IT Servicedesk voor snelle hulp bij storingen en gebruikersvragen tot IT manager voor uitzetten en uitvoeren van IT beleid.
+	 U kunt uw systeembeheer volledig aan LComp uitbesteden, waarbij heldere afspraken worden gemaakt over het gewenste serviceniveau.
+	 Onze focus ligt op het optimaal laten functioneren van uw IT systemen en applicaties, het bieden van toegankelijke IT ondersteuning en het voorkomen van storingen.
+	 Hiervoor bieden wij speciale managed services afgestemd op serverbeheer, werkplekbeheer, cloud IT beheer en IT beveiliging waarborgen wij uw systeem- en datacontinuïteit.
+	 Heeft u een eigen systeembeheerder ? Daarvoor bieden wij ook mogelijkheden voor IT ondersteuning op afroep en sparring als het gaat om het nemen van “moeilijke” beslissingen.
+	 Zo kunnen u en uw systeembeheerder óók profiteren van onze IT expertise, opgedaan in meer dan 30 jaar.
+	 Wij bieden systeembeheer en IT advies voor op Microsoft, Mac OS, Microsoft Azure platform gebaseerde IT omgevingen, zowel on-premise, hybride en 100% Cloud.
+	 Inclusief software en applicaties als Microsoft Office, Office 365, MS Exchange server, op MS SQL en MySQL gebaseerde applicaties en nog veel meer.
+	 Wij  kunnen ook uw softwarelicentie- en IT contract beheer verzorgen, zodat u compliant bent met licentiebepalingen en overzicht houdt over uw investeringen in softwarelicenties en IT contracten.
+	 Omdat geen organisatie hetzelfde is bieden wij onze IT diensten op maat, afgestemd op uw organisatie, wensen en budget.
+	 Wij informeren u graag over de mogelijkheden !
+	'
 
 ];
