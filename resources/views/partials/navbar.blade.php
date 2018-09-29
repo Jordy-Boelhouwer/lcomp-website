@@ -6,7 +6,7 @@
 </div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 	<div class="container">
-		<a class="navbar-brand" href="{{ route("home.index") }}"><img src="{{ asset('/images/logo.png') }}" width="140px"></a>
+		<a class="navbar-brand" href="{{ route("home.index") }}"><img src="{{ asset('/images/logo.png') }}" alt="Logo L'Comp" width="140px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

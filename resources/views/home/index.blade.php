@@ -38,7 +38,7 @@
 				</b>
 
 				<p>@lang('home.text-paragraph-4')</p>
-				<img class="w-100 mb-4" alt="" src="{{ asset('/images/LCOMPTeamNieuw1.jpg') }}">
+				<img class="w-100 mb-4" alt="Lcomp team" src="{{ asset('/images/LCOMPTeamNieuw1.jpg') }}">
 			</div>
 			<div class="col-lg-3 col-md-12">
 				@include('partials/rightsidebar/services')

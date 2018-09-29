@@ -5,7 +5,7 @@
             <div class="card">
                 <div class="sidecard-body">
                     <div class="row">
-                        <div class="col-md-5"><img src="{{ asset('/images/isl/logo.png') }}" class="w-100"></div>
+                        <div class="col-md-5"><img src="{{ asset('/images/isl/logo.png') }}" alt="Logo ISL" class="w-100"></div>
                         <div class="col-md-7">
                             <i class="mdi mdi-download mdi-18px mr-2"></i><b>Download</b><br>@lang('home.external-help')
                         </div>
