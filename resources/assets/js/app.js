@@ -6,9 +6,19 @@
  */
 
 require('./bootstrap');
-require('./partner');
 
-// import jQuery from "jquery";
-// window.$ = window.jQuery = jQuery;
+import $ from 'jquery';
+window.$ = window.jQuery = $;
+import 'slick-carousel'
+
+$(".partner-slider").slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    dots: false,
+    prevArrow: false,
+    nextArrow: false
+});
 
 
