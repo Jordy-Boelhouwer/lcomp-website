@@ -6,9 +6,9 @@ return [
     'methods' => 'Methods',
     'methods-intro' => 'We take care of your system and network management, also remotely.',
     'references' => 'Referenties',
-    'references-intro' => 'L’Comp is reeds sinds 1986 actief. 
-    In deze periode hebben wij een uitgebreide klantenkring opgebouwd met allen hun eigen vraagstukken.',
-    'privacy-intro' => 'L’Comp Automatiseringen B.V. is een automatiseringsbureau die zich richt op de zakelijke en particuliere markt.',
+    'references-intro' => 'L\'Comp has been active since 1986.
+    During this period we have built up an extensive clientele with all their own issues.',
+    'privacy-intro' => 'L\'Comp Automatiseringen B.V. is an automation office that focuses on the business and private market.',
 
     'first-name' => 'First name',
     'middle-name' => 'Middle name',

@@ -4,134 +4,151 @@ return [
 
 	//Automation
 	'automation' => 'Automation',
-	'automation-text1' => 'ICT is het kloppend hart van uw organisatie. Alle werkprocessen hangen er van af.
-	 Een storing heeft direct gevolg voor uw productiviteit, de afspraken die u met klanten heeft gemaakt en de tevredenheid van uw medewerkers.
-	  L`Comp is zich daarvan bewust.',
-	'automation-text2' => 'Daarom doen we in onze dienstverlening er al alles aan om storingen te voorkomen.
-	 Hebt u vragen of ondervindt u toch problemen met uw systemen, dan staat ons team voor u klaar om het zo spoedig mogelijk op te lossen.',
-	'automation-text3' => 'Elk bedrijf heeft zijn eigen manier van werken.
-	 Misschien kun je uit de voeten met standaard softwareoplossingen, maar de kans is groot dat je zoekt naar een slimmere vorm van kantoorautomatisering.',
-	'automation-ol-title' => 'Waarom L`Comp;',
-	'automation-li-1' => 'Meer dan 30 jaar ervaring',
-	'automation-li-2' => 'Optimaliseer bedrijfsprocessen',
-	'automation-li-3' => 'Hoe ingewikkeld ook: wij koppelen alles',
+	'automation-text1' => 'ICT is the beating heart of your organization. All work processes depend on it.
+        A failure has a direct effect on your productivity, the agreements you have made with customers and the satisfaction of your employees.
+        L`Comp is aware of this.',
+
+	'automation-text2' => 'That is why we already do everything in our service to prevent malfunctions.
+        If you have questions or are experiencing problems with your systems, our team is ready to solve it as soon as possible.',
+
+    'automation-text3' => 'Every company has its own way of working.
+        Maybe you can work with standard software solutions, but chances are you are looking for a smarter form of office automation.',
+
+    'automation-ol-title' => 'Why L\'Comp;',
+	'automation-li-1' => 'More than 30 years of experience',
+	'automation-li-2' => 'Optimize business processes',
+	'automation-li-3' => 'However complicated it is: we link everything',
 
 	//Wifi
   'wifi' => 'WiFi',
-	'wifi-intro' => 'De eisen die aan hedendaagse draadloze netwerken worden gesteld liggen ver weg bij de eisen zoals deze 5 tot 10 jaar geleden golden.
-  WiFi was ‘handig en leuk om te  hebben’, maar geldt tegenwoordig als het primaire onmisbare schakel. Waar dekking als uitgangspunt gold, vraagt de gebruiker nu capaciteit.
-	Laptops, met vastomlijnde WiFi specificaties, zijn verdrongen door de Bring-Your-Own-Device trend.
-	Voor een optimaal functionerend en stabiel netwerk is een grondige Site Survey (netwerk meting) met Spectrum Analyse daarom van belang!',
-	'wifi-spectrum' => 'Spectrum Analyse',
-	'wifi-spectrum-text1' => 'Met een Spectrum Analyse brengen wij toekomstige radiospectrum (2,4 GHz. en 5 GHz.) in kaart.
-	Deze geavanceerde analyse brengt in beeld of het radiospectrum ‘schoon’ genoeg is.
-	Wij brengen storingsbronnen in kaart die van invloed zijn op de kanalen die de AccessPoints gebruiken voor communicatie met de WLAN devices.
-	Denk aan stoorzenders zoals een magnetron of beveiligingscamera’s. Ook bepalen we de kanaal- en vermogensinstellingen voor optimale inrichting van het radiospectrum.
-	Na het afronden van de metingen stelt L’Comp rapportage op van de meetwaarden. Op basis van deze gegevens brengen wij een netwerkadvies uit voor een passende oplossing op maat.',
-	'wifi-meten' => 'Meten is weten!',
-	'wifi-meten-text1' => 'Een WiFi netwerk inrichten zonder de uitvoer van een kundige Site Survey (netwerk meting) op locatie? Dat is vragen om problemen!
-	De meting op locatie is hét vertrekpunt voor de realisatie van een betrouwbaar WLAN.
-	Het geeft inzicht in de benodigde hardware, de precieze positionering en de instellingen zoals kanaalkeuze en zendvermogens.
-	Bovendien brengen de specialisten van L`Comp ook de randvoorwaarden in kaart.
-	Denk aan de bekabeling en de aanwezigheid van voldoende switchpoorten en het voorzien van de juiste Power over Ethernet ondersteuning. Ook hier geldt: meten is weten!',
-	'wifi-meten-aanvraag' => 'Vraag een netwerk meting aan bij L`Comp',
+	'wifi-intro' => 'The demands made on today\'s wireless networks are far removed from the requirements as they were 5 to 10 years ago.
+        WiFi was \'convenient and fun to have\', but nowadays it is considered the primary indispensable link. Where coverage was the starting point, the user now requires capacity.
+        Laptops, with fixed WiFi specifications, have been replaced by the Bring-Your-Own-Device trend.
+        For an optimally functioning and stable network, a thorough Site Survey (network measurement) with Spectrum Analysis is therefore important!',
+
+    'wifi-spectrum' => 'Spectrum Analysis',
+	'wifi-spectrum-text1' => 'With a Spectrum Analysis we map future radio spectrum (2.4 GHz and 5 GHz).
+        This advanced analysis shows whether the radio spectrum is \'clean\' enough.
+        We map out sources of interference that affect the channels that the AccessPoints use to communicate with the WLAN devices.
+        Think of jammers like a microwave or security cameras. We also determine the channel and power settings for optimal design of the radio spectrum.
+        After completing the measurements, L\'Comp reports the measurement values. Based on this information, we provide a network recommendation for a tailor-made solution.',
+
+    'wifi-meten' => 'Measuring is knowing!',
+	'wifi-meten-text1' => 'Setting up a WiFi network without the output of a skilled Site Survey (network measurement) on location? That is asking for problems!
+        The measurement on location is the starting point for the realization of a reliable WLAN.
+        It provides insight into the required hardware, the precise positioning and the settings such as channel selection and transmission capabilities.
+        In addition, the L`Comp specialists also map out the preconditions.
+        Consider the cabling and the presence of sufficient switch ports and the provision of the right Power over Ethernet support. Here too, measuring is knowing!',
+
+    'wifi-meten-aanvraag' => 'Request a network measurement from L`Comp',
 
 	//Cloud
 	'cloud' => 'Cloud',
-	'cloud-intro' => 'Onze cloud diensten maken uw werk efficiënter, goedkoper en flexibeler.
-	Werkprocessen kunnen versneld worden, de mogelijkheden om te communiceren nemen toe en door ‘de cloud in te gaan’ kunt u overal werken en makkelijk online back-ups maken van alle belangrijke bestanden.
-	Online samenwerken met collega’s, makkelijk bestanden met elkaar delen zonder datalimiet en volledig online werken is mogelijk met de cloud oplossingen van L`Comp Automatiseringen',
-	'cloud-services' => 'Cloud diensten zoals;',
+	'cloud-intro' => 'Our cloud services make your work more efficient, cheaper and more flexible.
+        Work processes can be accelerated, the possibilities for communication increase and by \'going into the cloud\' you can work anywhere and easily back up all important files online.
+        Collaborate online with colleagues, easily share files with no data limit and fully online work is possible with the cloud solutions of L`Comp Automatiserings',
+
+    'cloud-services' => 'Cloud services such as;',
 	'cloud-backup' => 'Cloud Backup',
-	'cloud-backup-text1' => 'Een back-up in de cloud, veilig en betrouwbaar. Dat is wat we met LComp mogelijk maken.
-	Een noodzaak voor zaken als uw administratie, data en andere documenten.',
-	'cloud-hosting' => 'Cloud Hosting',
-	'cloud-hosting-text1' => 'Geen volle schijven, handmatige upgrades of gecrashte servers en verloren data meer: met cloud hosting van Resbo IT voorzien we u in een schaalbare hosting omgeving in de cloud.',
-	'cloud-workplace' => 'Cloud Werken / Werkplek',
-	'cloud-workplace-text1' => 'Cloud werken betekent dat u overal ter wereld, vanaf iedere willekeurige werkplek kunt werken zoals u dat op kantoor ook zou doen.
-	De zelfde programma’s en beschikking over al uw gegevens.',
-	'cloud-storage' => 'Cloud Opslag',
-	'cloud-storage-text1' => 'Een schaalbare opslag, beveiligd en overal beschikbaar. Dit kan LComp u bieden met cloud opslag.
-	Werken in de cloud biedt schaalbare mogelijkheden en diverse voordelen.',
+	'cloud-backup-text1' => 'A backup in the cloud, safe and reliable. That is what we make possible with L\'Comp.
+        A necessity for things like your administration, data and other documents.',
+
+    'cloud-hosting' => 'Cloud Hosting',
+	'cloud-hosting-text1' => 'No full disks, manual upgrades or crashed servers and lost data: with cloud hosting from Resbo IT we provide you with a scalable hosting environment in the cloud.',
+	'cloud-workplace' => 'Cloud Working / Workplace',
+	'cloud-workplace-text1' => 'Working in a cloud means that you can work anywhere in the world from any workstation as you would at the office.
+        The same programs and disposal of all your data.',
+
+    'cloud-storage' => 'Cloud Storage',
+	'cloud-storage-text1' => 'A scalable storage, secured and available everywhere. This can provide L\'Comp with cloud storage.
+Working in the cloud offers scalable opportunities and various advantages.',
 
 	//Consultancy
 	'consultancy' => 'Consultancy',
-	'consultancy-text1' => 'Het doel van onze IT & ICT consultancy diensten is simpel;',
-	'consultancy-text2' => 'Wij willen ervoor zorgen dat klanten door middel van onze dienstverlening maximale waarde halen uit ICT.
-	 Wij doen dit door uitgebreid advies te geven aan klanten hoe hun ICT het beste kan bijdragen aan het behalen van hun operationele-,
-	 en strategische doelstellingen.',
-	'consultancy-text2' => 'Na jaren ervaring kunnen we stellen dat L`Comp zeer bedreven in is consultancy.
-	 Of klanten nou op zoek zijn naar een partij die kan voorzien in een uitgebreid IT advies of naar een partij die ervoor zorgt dat de ICT binnen het bedrijf zo efficiënt mogelijk wordt ingezet; L`Comp beheerst beide aspecten',
-	'consultancy-text3' => 'Benieuwd naar de mogelijkheden? Neem dan gerust contact met ons op en we geven jou advies op maat.',
+	'consultancy-text1' => 'The goal of our IT & ICT consultancy services is simple;',
+	'consultancy-text2' => 'We want to ensure that customers get maximum value from ICT through our services.
+        We do this by giving comprehensive advice to customers on how their ICT can best contribute to achieving their operational,
+        and strategic objectives.',
+
+    'consultancy-text2' => 'After years of experience, we can say that L`Comp is very skilled in consultancy.
+        Whether customers are looking for a party that can provide an extensive IT advice or a party that ensures that the ICT within the company is used as efficiently as possible; L`Comp controls both aspects',
+
+    'consultancy-text3' => 'Curious about the possibilities? Feel free to contact us and we will give you tailored advice.',
 
 	//Reparaties
 	'repair' => 'Repair service',
-	'repair-text1' => 'Op onze locatie in Landsmeer hebben wij een eigen technische dienst waar wij reparaties – voorinstallatie uitvoeren voorzowel zakelijk als particuliere klanten.',
-	'repair-text2' => 'Laptop / Desktop / Tablet / Telefoon reparties worden uitgevoerd',
-	'repair-text3' => 'Een goed werkende, snelle computer is onmisbaar, ook voor particulieren!
-	 Misschien loopt uw PC snel vast, valt deze plotseling uit of geeft hij een blauw of zwart scherm.
-	 internet. Snelle en persoonlijke service staat voor L`Comp centraal.',
-	'repair-most-title' => 'MEEST VOORKOMENDE PC REPARATIES',
-	'repair-most-text1' => 'Neem contact met ons op om de situatie van uw PC te bespreken. Wij kunnen dan een prijs en afspraak op maat voor u maken.',
-	'repair-li-1' => 'Windows / MacOS installatie',
-	'repair-li-2' => 'Scherm vervangen',
-	'repair-li-3' => 'Oplaad poort vervangen',
-	'repair-li-4' => 'Stof, Lawaai, Oververhitting',
-	'repair-li-5' => 'Ventilator',
-	'repair-li-6' => 'Toetsenbord vervangen',
-	'repair-li-7' => 'Batterij vervangen',
-	'repair-li-8' => 'Waterschade ultrasoon schoonmaken',
-	'repair-li-9' => 'Moederboard reparatie',
-	'repair-li-10' => 'Videokaart Reparatie/Vervangen',
-	'repair-li-11' => 'Onderzoeken & Diagnoses stellen',
+	'repair-text1' => 'At our location in Landsmeer we have our own technical department where we carry out repairs - pre-installation for both business and private customers.',
+	'repair-text2' => 'Laptop / Desktop / Tablet / Phone reparties are running',
+	'repair-text3' => 'A good working, fast computer is indispensable, even for individuals!
+        Your PC may quickly crash, suddenly fall out or give a blue or black screen.
+        internet. Fast and personal service is central to L`Comp.',
+
+    'repair-most-title' => 'MOST COMMON PC REPAIRS',
+	'repair-most-text1' => 'Contact us to discuss the situation of your PC. We can then make a customized price and appointment for you.',
+	'repair-li-1' => 'Windows / MacOS installation',
+	'repair-li-2' => 'Replace screen',
+	'repair-li-3' => 'Replace charging port',
+	'repair-li-4' => 'Dust, Noise, Overheating',
+	'repair-li-5' => 'Fan',
+	'repair-li-6' => 'Replace keyboard',
+	'repair-li-7' => 'Replace battery',
+	'repair-li-8' => 'Water damage ultrasonic cleaning',
+	'repair-li-9' => 'Motherboard repair',
+	'repair-li-10' => 'Video card Repair / Replacement',
+	'repair-li-11' => 'Research & Diagnosis',
 
 	//voip
 	'voip' => 'VOIP',
 	'voip-title1' => 'Voice over ip',
-	'voip-text1' => 'Met de komst van Voice over IP (VoIP) is telefonie en IT dezelfde technologie geworden.
- 	 De telefoon en de computer zijn aangesloten met dezelfde netwerkkabel en beide maken over het internet (via het Internet Protocol – IP) verbinding met collega’s en de buitenwereld.
-	 Het is dus niet meer dan logisch dat de IT-partner ook de verantwoordelijkheid heeft over telefonie. Eén betrouwbare partner die adviseert en ondersteunt op alle gebieden van communicatie, mobiel werken en de cloud.',
-	'voip-title2' => 'Internetverbindingen',
-	'voip-text2' => 'De toegang tot het internet is tegenwoordig een van de belangrijkste onderdelen van IT en telefonie.
-	 Daar wil je je als ondernemer geen zorgen over maken. Eén internetverbinding voor IT en telefonie of ieder een eigen internetverbinding? Glasvezel,
- 	 DSL of kabel? Hoeveel overbooking? Welke router/firewall hoort daarbij? Welke snelheid hebben we nodig?',
-	'voip-title3' => 'Mobiele telefonie',
-	'voip-text3' => 'Onze slimme mobiele oplossingen bieden ongeëvenaarde flexibiliteit en functionaliteit.
-	 We bieden zeer voordelige tarieven en een hoge betrouwbaarheid, want we maken gebruik van het radionetwerk van KPN.',
+	'voip-text1' => 'With the arrival of Voice over IP (VoIP), telephony and IT have become the same technology.
+        The telephone and the computer are connected with the same network cable and both connect to colleagues and the outside world via the Internet (via the Internet Protocol - IP).
+        It is therefore only logical that the IT partner also has the responsibility for telephony. One reliable partner who advises and supports in all areas of communication, mobile work and the cloud.',
+
+    'voip-title2' => 'Internet connections',
+	'voip-text2' => 'Access to the internet is now one of the most important parts of IT and telephony.
+        You do not want to worry about that as an entrepreneur. One internet connection for IT and telephony or each with its own internet connection? Optical fiber,
+        DSL or cable? How much overbooking? Which router / firewall belongs? What speed do we need?',
+
+    'voip-title3' => 'Mobile telephony',
+	'voip-text3' => 'Our smart mobile solutions offer unrivaled flexibility and functionality.
+        We offer very competitive rates and high reliability, because we use KPN\'s radio network.',
 
 	 //management
 	 'management' => 'ICT Management',
-	 'management-intro' => 'Tegenwoordig is ICT één van de belangrijkste onderdelen van een organisatie, zo niet het belangrijkste.
-	  L`Comp onderkent dit belang en staat garant voor de continuïteit van uw ICT, dus die van uw organisatie.
-	 	We leveren alle Managed Services die ervoor zorgen dat uw IT-omgeving probleemloos draait.',
-	'management-title1' => 'Support Desk',
-	'management-text1' => 'L`Comp Automatiseringen BV heeft een eigen support afdeling met technische professionals die op de hoogte zijn van de situatie bij de klant. Een persoonlijke benadering die werkt.',
-	'management-text2' => 'Bij ons krijgt u dus niet elke keer een andere support medewerker aan de lijn waar u de situatie steeds opnieuw aan moet uitleggen',
-	'management-title2' => 'Remote monitoring & beheer',
-	'management-text3' => 'U wilt u kunnen focussen op uw core business en wij willen uw bedrijfscontinuïteit garanderen.
- 	 Om deze reden kunnen wij op afstand continu in de gaten houden hoe uw ICT presteert en signaleren wij mogelijke issues op tijd,
-	 zodat u daar geen hinder van ondervindt. Zijn er belangrijke updates die gedaan moeten worden, dan zorgen wij dat uw ICT volledig up to date is.',
-	'management-title3' => 'Beheer op locatie – Pro Actief onderhoud',
-	'management-text4' => 'Het kan zijn dat u behoefte heeft aan fysieke ondersteuning op uw werkplek.
-	 We kunnen ad-hoc of op vaste momenten langskomen om uw medewerkers te helpen als er issues zijn of vragen te beantwoorden die er op dat moment zijn. ',
-	'management-title4' => 'Continu ondersteuning bij storing',
-	'management-text5' => 'Ook onderdeel van onze managed services is dat wij 24 uur per dag bereikbaar zijn in het geval van storing of andere problemen.
-	 Uiteraard proberen wij problemen op tijd te monitoren en maken wij gebruik van geautomatiseerde activiteiten om zo adequaat mogelijk ICT-beheer uit te voeren.
-	 Maar het kan zijn dat u ons op een ongebruikelijke tijd nodig hebt en dan zullen wij ook voor u klaar staan.',
-	'management-text6' => 'IT Servicedesk,  Systeembeheer en uw eigen virtuele ICT manager',
-	'management-title5' => 'Uw “eigen” externe IT afdeling, toegankelijk en altijd beschikbaar !',
-	'management-text7' => 'L`Comp biedt een volledige outsourced IT afdeling voor bedrijven en organisaties met 5-150 werkplekken.
-	 Van IT Servicedesk voor snelle hulp bij storingen en gebruikersvragen tot IT manager voor uitzetten en uitvoeren van IT beleid.
-	 U kunt uw systeembeheer volledig aan LComp uitbesteden, waarbij heldere afspraken worden gemaakt over het gewenste serviceniveau.
-	 Onze focus ligt op het optimaal laten functioneren van uw IT systemen en applicaties, het bieden van toegankelijke IT ondersteuning en het voorkomen van storingen.
-	 Hiervoor bieden wij speciale managed services afgestemd op serverbeheer, werkplekbeheer, cloud IT beheer en IT beveiliging waarborgen wij uw systeem- en datacontinuïteit.
-	 Heeft u een eigen systeembeheerder ? Daarvoor bieden wij ook mogelijkheden voor IT ondersteuning op afroep en sparring als het gaat om het nemen van “moeilijke” beslissingen.
-	 Zo kunnen u en uw systeembeheerder óók profiteren van onze IT expertise, opgedaan in meer dan 30 jaar.
-	 Wij bieden systeembeheer en IT advies voor op Microsoft, Mac OS, Microsoft Azure platform gebaseerde IT omgevingen, zowel on-premise, hybride en 100% Cloud.
-	 Inclusief software en applicaties als Microsoft Office, Office 365, MS Exchange server, op MS SQL en MySQL gebaseerde applicaties en nog veel meer.
-	 Wij  kunnen ook uw softwarelicentie- en IT contract beheer verzorgen, zodat u compliant bent met licentiebepalingen en overzicht houdt over uw investeringen in softwarelicenties en IT contracten.
-	 Omdat geen organisatie hetzelfde is bieden wij onze IT diensten op maat, afgestemd op uw organisatie, wensen en budget.
-	 Wij informeren u graag over de mogelijkheden !
-	'
+	 'management-intro' => 'Today ICT is one of the most important parts of an organization, if not the most important one.
+        L`Comp recognizes this importance and guarantees the continuity of your ICT, ie that of your organization.
+        We deliver all Managed Services that ensure that your IT environment runs smoothly.',
+
+    'management-title1' => 'Support Desk',
+	'management-text1' => 'L`Comp Automatiseringen BV has its own support department with technical professionals who are aware of the situation at the customer. A personal approach that works.',
+	'management-text2' => 'With us you do not always get a different support employee on the line where you have to explain the situation over and over again',
+	'management-title2' => 'Remote monitoring & management',
+	'management-text3' => 'You want to be able to focus on your core business and we want to guarantee your business continuity.
+        For this reason, we can keep a constant watch on how your ICT performs and we identify potential issues on time,
+        so you will not be bothered by that. If there are important updates that need to be done, we will ensure that your ICT is fully up to date.',
+
+    'management-title3' => 'On-site management - Pro Active maintenance',
+	'management-text4' => 'You may need physical support at your workplace.
+        We can come to you ad-hoc or at fixed times to help your employees if there are issues or to answer questions that are there at that moment.',
+
+    'management-title4' => 'Continuous support in case of failure',
+	'management-text5' => 'Also part of our managed services is that we are available 24 hours a day in case of malfunction or other problems.
+        Of course we try to monitor problems on time and we use automated activities to perform ICT management as adequately as possible.
+        But it may be that you need us at an unusual time and then we will also be ready for you.',
+
+	'management-text6' => 'IT Service Desk, System Management and your own virtual ICT manager',
+	'management-title5' => 'Your "own" external IT department, accessible and always available!',
+	'management-text7' => 'L`Comp offers a full outsourced IT department for companies and organizations with 5-150 workplaces.
+        From IT Service Desk for quick assistance in case of malfunctions and user questions to IT manager for setting up and executing IT policy.
+        You can outsource your system management entirely to L\'Comp, with clear agreements about the desired level of service.
+        Our focus is on the optimal functioning of your IT systems and applications, providing accessible IT support and preventing failures.
+        For this we offer special managed services tailored to server management, workplace management, cloud IT management and IT security, we guarantee your system and data continuity.
+        Do you have your own system administrator? We also offer opportunities for on-demand IT support and sparring when it comes to making "difficult" decisions.
+        This way you and your system administrator can also benefit from our IT expertise, gained in more than 30 years.
+        We offer system management and IT advice on Microsoft, Mac OS and Microsoft Azure platform based IT environments, both on-premise, hybrid and 100% Cloud.
+        Including software and applications such as Microsoft Office, Office 365, MS Exchange server, MS SQL and MySQL based applications and much more.
+        We can also take care of your software license and IT contract management, so that you are compliant with license provisions and keep an overview of your investments in software licenses and IT contracts.
+        Because no organization is the same, we offer our customized IT services, tailored to your organization, wishes and budget.
+        We would like to inform you about the possibilities !'
 
 ];

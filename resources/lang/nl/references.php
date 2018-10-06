@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'references-intro' => 'Lcomp bedient vele soorten bedrijven. 
+    'references-intro' => 'L\'Comp bedient vele soorten bedrijven. 
     Wij zijn sterk vertegenwoordigd in de financiële dienstverlening / Aannemingsbedrijven en Retail.',
 
     'references-paragraph-1' => 'Al sinds 1986 bieden wij diensten aan het midden- en kleinbedrijf in de Randstad. 

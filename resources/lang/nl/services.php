@@ -43,7 +43,7 @@ return [
 	Online samenwerken met collega’s, makkelijk bestanden met elkaar delen zonder datalimiet en volledig online werken is mogelijk met de cloud oplossingen van L`Comp Automatiseringen',
 	'cloud-services' => 'Cloud diensten zoals;',
 	'cloud-backup' => 'Cloud Backup',
-	'cloud-backup-text1' => 'Een back-up in de cloud, veilig en betrouwbaar. Dat is wat we met LComp mogelijk maken.
+	'cloud-backup-text1' => 'Een back-up in de cloud, veilig en betrouwbaar. Dat is wat we met L\'Comp mogelijk maken.
 	Een noodzaak voor zaken als uw administratie, data en andere documenten.',
 	'cloud-hosting' => 'Cloud Hosting',
 	'cloud-hosting-text1' => 'Geen volle schijven, handmatige upgrades of gecrashte servers en verloren data meer: met cloud hosting van Resbo IT voorzien we u in een schaalbare hosting omgeving in de cloud.',
@@ -51,7 +51,7 @@ return [
 	'cloud-workplace-text1' => 'Cloud werken betekent dat u overal ter wereld, vanaf iedere willekeurige werkplek kunt werken zoals u dat op kantoor ook zou doen.
 	De zelfde programma’s en beschikking over al uw gegevens.',
 	'cloud-storage' => 'Cloud Opslag',
-	'cloud-storage-text1' => 'Een schaalbare opslag, beveiligd en overal beschikbaar. Dit kan LComp u bieden met cloud opslag.
+	'cloud-storage-text1' => 'Een schaalbare opslag, beveiligd en overal beschikbaar. Dit kan L\'Comp u bieden met cloud opslag.
 	Werken in de cloud biedt schaalbare mogelijkheden en diverse voordelen.',
 
 	//Consultancy
@@ -122,7 +122,7 @@ return [
 	'management-title5' => 'Uw “eigen” externe IT afdeling, toegankelijk en altijd beschikbaar !',
 	'management-text7' => 'L`Comp biedt een volledige outsourced IT afdeling voor bedrijven en organisaties met 5-150 werkplekken.
 	 Van IT Servicedesk voor snelle hulp bij storingen en gebruikersvragen tot IT manager voor uitzetten en uitvoeren van IT beleid.
-	 U kunt uw systeembeheer volledig aan LComp uitbesteden, waarbij heldere afspraken worden gemaakt over het gewenste serviceniveau.
+	 U kunt uw systeembeheer volledig aan L\'Comp uitbesteden, waarbij heldere afspraken worden gemaakt over het gewenste serviceniveau.
 	 Onze focus ligt op het optimaal laten functioneren van uw IT systemen en applicaties, het bieden van toegankelijke IT ondersteuning en het voorkomen van storingen.
 	 Hiervoor bieden wij speciale managed services afgestemd op serverbeheer, werkplekbeheer, cloud IT beheer en IT beveiliging waarborgen wij uw systeem- en datacontinuïteit.
 	 Heeft u een eigen systeembeheerder ? Daarvoor bieden wij ook mogelijkheden voor IT ondersteuning op afroep en sparring als het gaat om het nemen van “moeilijke” beslissingen.
