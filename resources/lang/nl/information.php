@@ -33,10 +33,10 @@ return [
      U kunt een verzoek tot inzage per brief of per e-mail bij ons indienen. Onze contactgegevens vindt u onderaan deze pagina.',
     'correction-title' => 'Correctie van uw gegevens',
     'correction-text' => 'Als de gegevens waarover L’Comp Automatiseringen B.V. beschikt niet juist zijn dan kunt u de foutieve gegevens laten corrigeren.
-     Neem hiervoor contact met ons op. Wij verwachten dat u in uw bericht of brief aangeeft welke gegevens onjuist zijn
+     Neem hiervoor <a href="/contact">contact</a> met ons op. Wij verwachten dat u in uw bericht of brief aangeeft welke gegevens onjuist zijn
      en hoe deze gegevens moeten worden gecorrigeerd.',
     'contact-title' => 'Hoe kunt u ons bereiken',
-    'contact-text' => 'Als u vragen heeft of gebruik wil maken van uw rechten dan kunt u op verschillende manier met ons contact opnemen.',
+    'contact-text' => 'Als u vragen heeft of gebruik wil maken van uw rechten dan kunt u op verschillende manier met ons <a href="/contact">contact</a> opnemen.',
     'contact-li' => '<ul>
 				   <li>Ons adres is: Burgermeester Postweg 5A, 1121 JA, Landsmeer. </li>
 				   <li>Van maandag t/m vrijdag tussen 09:00 en 18:00 en zaterdag tussen 10:00 en 16:00 uur zijn wij telefonisch bereikbaar op 020 482 444 0 bereikbaar.</li>

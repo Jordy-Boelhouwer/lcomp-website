@@ -11,5 +11,5 @@ return [
     'references-paragraph-2' => 'Wij zijn trots op onze klantenkring. 
         Als voorbeeld een overzicht van een greep van onze klanten uit zeer diverse branches. 
         Kijk naar onze bestaande klanten en ontdek wat wij voor u zouden kunnen betekenen. Wilt u kennis maken met ons, 
-        neem snel contact met ons op.'
+        neem snel <a href="/contact"> contact</a> met ons op.'
 ];

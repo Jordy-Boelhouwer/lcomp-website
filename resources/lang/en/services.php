@@ -73,7 +73,7 @@ Working in the cloud offers scalable opportunities and various advantages.',
     'consultancy-text2' => 'After years of experience, we can say that L`Comp is very skilled in consultancy.
         Whether customers are looking for a party that can provide an extensive IT advice or a party that ensures that the ICT within the company is used as efficiently as possible; L`Comp controls both aspects',
 
-    'consultancy-text3' => 'Curious about the possibilities? Feel free to contact us and we will give you tailored advice.',
+    'consultancy-text3' => 'Curious about the possibilities? Feel free to <a href="/contact">contact</a> us and we will give you tailored advice.',
 
 	//Reparaties
 	'repair' => 'Repair service',
@@ -84,7 +84,7 @@ Working in the cloud offers scalable opportunities and various advantages.',
         internet. Fast and personal service is central to L`Comp.',
 
     'repair-most-title' => 'MOST COMMON PC REPAIRS',
-	'repair-most-text1' => 'Contact us to discuss the situation of your PC. We can then make a customized price and appointment for you.',
+	'repair-most-text1' => '<a href="/contact">Contact</a> us to discuss the situation of your PC. We can then make a customized price and appointment for you.',
 	'repair-li-1' => 'Windows / MacOS installation',
 	'repair-li-2' => 'Replace screen',
 	'repair-li-3' => 'Replace charging port',

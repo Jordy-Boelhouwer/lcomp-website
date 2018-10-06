@@ -62,7 +62,7 @@ return [
 	 en strategische doelstellingen.',
 	'consultancy-text2' => 'Na jaren ervaring kunnen we stellen dat L`Comp zeer bedreven in is consultancy.
 	 Of klanten nou op zoek zijn naar een partij die kan voorzien in een uitgebreid IT advies of naar een partij die ervoor zorgt dat de ICT binnen het bedrijf zo efficiënt mogelijk wordt ingezet; L`Comp beheerst beide aspecten',
-	'consultancy-text3' => 'Benieuwd naar de mogelijkheden? Neem dan gerust contact met ons op en we geven jou advies op maat.',
+	'consultancy-text3' => 'Benieuwd naar de mogelijkheden? Neem dan gerust <a href="/contact">contact</a> met ons op en we geven jou advies op maat.',
 
 	//Reparaties
 	'repair' => 'Reparaties',
@@ -72,7 +72,7 @@ return [
 	 Misschien loopt uw PC snel vast, valt deze plotseling uit of geeft hij een blauw of zwart scherm.
 	 internet. Snelle en persoonlijke service staat voor L`Comp centraal.',
 	'repair-most-title' => 'MEEST VOORKOMENDE PC REPARATIES',
-	'repair-most-text1' => 'Neem contact met ons op om de situatie van uw PC te bespreken. Wij kunnen dan een prijs en afspraak op maat voor u maken.',
+	'repair-most-text1' => 'Neem <a href="/contact">contact</a> met ons op om de situatie van uw PC te bespreken. Wij kunnen dan een prijs en afspraak op maat voor u maken.',
 	'repair-li-1' => 'Windows / MacOS installatie',
 	'repair-li-2' => 'Scherm vervangen',
 	'repair-li-3' => 'Oplaad poort vervangen',

@@ -10,5 +10,5 @@ return [
     'references-paragraph-2' => 'We are proud of our clientele. As an example, 
         an overview of a selection of our customers from a wide range of industries. 
         Look at our existing customers and find out what we could do for you. 
-        If you want to meet us, please contact us quickly.'
+        If you want to meet us, please <a href="/contact">contact</a> us quickly.'
 ];
