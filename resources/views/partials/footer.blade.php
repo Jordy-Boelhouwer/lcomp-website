@@ -2,23 +2,6 @@
 	<div class="container">
 		<div class="footer">
 			<div class="row">
-				<div class="col-md-3 col-sm-12 mt-md-0 mt-3">
-					<h3 class="text-white">Partners</h3>
-					<div class="partner-slider">
-						<div><img src="{{ asset('/images/logos/image1.png') }}"></div>
-						<div><img src="{{ asset('/images/logos/image2.png') }}"></div>
-						<div><img src="{{ asset('/images/logos/image3.png') }}"></div>
-						<div><img src="{{ asset('/images/logos/image4.png') }}"></div>
-						<div><img src="{{ asset('/images/logos/image5.png') }}"></div>
-						<div><img src="{{ asset('/images/logos/image6.png') }}"></div>
-						<div><img src="{{ asset('/images/logos/image7.png') }}"></div>
-						<div><img src="{{ asset('/images/logos/image8.png') }}"></div>
-						<div><img src="{{ asset('/images/logos/image9.png') }}"></div>
-						<div><img src="{{ asset('/images/logos/image10.png') }}"></div>
-						<div><img src="{{ asset('/images/logos/image11.png') }}"></div>
-					</div>
-				</div>
-
 				<div class="col-md-3 col-sm-12 mb-md-0 mb-3">
 
 					<h5 class="text-uppercase text-white">@lang('home.services-relieves')</h5>

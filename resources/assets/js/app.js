@@ -11,14 +11,25 @@ import $ from 'jquery';
 window.$ = window.jQuery = $;
 import 'slick-carousel'
 
-$(".partner-slider").slick({
+$(".references-slider").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrows: true,
     autoplay: true,
-    dots: false,
-    prevArrow: false,
-    nextArrow: false
+    dots: true,
+    autoplaySpeed: 6000,
+    adaptiveHeight: true
+});
+
+$(".partner-slider").slick({
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    autoplay: true,
+    dots: true,
+    autoplaySpeed: 6000,
+    adaptiveHeight: true
 });
 
 

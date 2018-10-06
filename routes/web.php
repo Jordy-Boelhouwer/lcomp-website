@@ -44,11 +44,6 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
         'as' => 'about.methods'
     ]);
 
-    Route::get('/referenties2', [
-        'uses' => 'AboutController@references',
-        'as' => 'about.references'
-    ]);
-
 //Brochure routes
     Route::get('/folder', [
         'uses' => 'BrochureController@index',

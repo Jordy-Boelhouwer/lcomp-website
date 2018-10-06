@@ -1,9 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Privacy Verklaring')
+@section('title', 'Referenties')
 
 @section('content')
-@include('partials/headers/privacy')
 <section>
     <div class="container">
         <div class="row">
@@ -12,67 +11,38 @@
 				@include('partials/leftsidebar/partners')
 			</div>
             <div class="col-lg-7 col-sm-12">
-                <h1>@lang('information.privacy-title')</h1>
-				<p>
-					@lang('information.privacy-intro-1')
-				</p>
-				<p>
-					@lang('information.privacy-intro-2')
-				</p>
-				<p>
-					<b>
-						@lang('information.personal-process-title')
-					</b>
-				</p>
-				<p>
-					@lang('information.personal-process-li')
-				</p>
-				<p>
-					<b>
-						@lang('information.personal-uses-title')
-					</b>
-				</p>
-				<p>
-					@lang('information.personal-uses-text-1')
-				</p>
-				<p>
-					@lang('information.personal-uses-text-2')
-				</p>
-				<p>
-					<b>
-						@lang('information.personal-share-title')
-					</b>
-				</p>
-				<p>
-					@lang('information.personal-share-text')
-				</p>
-				<p>
-					<b>
-						@lang('information.insight-title')
-					</b>
-				</p>
-				<p>
-					@lang('information.insight-text')
-				</p>
-				<p>
-					<b>
-						@lang('information.correction-title')
-					</b>
-				</p>
-				<p>
-					@lang('information.correction-text')
-				</p>
-				<p>
-					<b>
-						@lang('information.contact-title')
-					</b>
-				</p>
-				<p>
-					@lang('information.contact-text')
-				</p>
-				<p>
-					@lang('information.contact-li')
-				</p>
+				<p>@lang('references.references-intro')</p>
+				<p>@lang('references.references-paragraph-1')</p>
+                <p>@lang('references.references-paragraph-2')</p>
+
+                <div class="references-slider mt-5 mb-5">
+                    <div><img src="{{ asset('/images/logos/tis-logo.jpg') }}"></div>
+                    <div><img src="{{ asset('/images/logos/wagelaar-logo.jpg') }}"></div>
+                    <div><img src="{{ asset('/images/logos/toren-logo.png') }}"></div>
+                    <div><img src="{{ asset('/images/logos/HelloFresh-logo.png') }}"></div>
+                    <div><img src="{{ asset('/images/logos/logo-lovestories.png') }}"></div>
+                    <div><img src="{{ asset('/images/logos/trendsource-logo.png') }}"></div>
+                    <div><img src="{{ asset('/images/logos/logo-speech-republic.png') }}"></div>
+                    <div><img src="{{ asset('/images/logos/tuzkapan-logo.png') }}"></div>
+                    <div><img src="{{ asset('/images/logos/cooldelivery-logo.png') }}"></div>
+                    <div><img src="{{ asset('/images/logos/spoel-sch-logo.jpg') }}"></div>
+                </div>
+
+                <h1>Partners</h1>
+
+                <div class="partner-slider">
+                    <div><img src="{{ asset('/images/logos/image1.png') }}"></div>
+                    <div><img src="{{ asset('/images/logos/image2.png') }}"></div>
+                    <div><img src="{{ asset('/images/logos/image3.png') }}"></div>
+                    <div><img src="{{ asset('/images/logos/image4.png') }}"></div>
+                    <div><img src="{{ asset('/images/logos/image5.png') }}"></div>
+                    <div><img src="{{ asset('/images/logos/image6.png') }}"></div>
+                    <div><img src="{{ asset('/images/logos/image7.png') }}"></div>
+                    <div><img src="{{ asset('/images/logos/image8.png') }}"></div>
+                    <div><img src="{{ asset('/images/logos/image9.png') }}"></div>
+                    <div><img src="{{ asset('/images/logos/image10.png') }}"></div>
+                    <div><img src="{{ asset('/images/logos/image11.png') }}"></div>
+                </div>
 			</div>
 			<div class="col-lg-3 col-md-12">
 				@include('partials/rightsidebar/services')
