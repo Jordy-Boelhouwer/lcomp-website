@@ -23,10 +23,10 @@
 			<!-- Previous button -->
 			<div ignore="1" class="previous-button"></div>
 			
-			<div style="background-image:url(pages/1h.jpg)"></div>
-			<div style="background-image:url(pages/2h.jpg)"></div>
-			<div style="background-image:url(pages/3h.jpg)"></div>
-			<div style="background-image:url(pages/4h.jpg)"></div>
+			<div style="background-image:url(pages/pagina-1.jpg)"></div>
+			<div style="background-image:url(pages/pagina-2.jpg)"></div>
+			<div style="background-image:url(pages/pagina-3.jpg)"></div>
+			<div style="background-image:url(pages/pagina-4.jpg)"></div>
 		</div>
 	</div>
 	<div class="bottom">
