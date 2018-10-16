@@ -1,5 +1,8 @@
 @component('mail::message')
-    {{ $contactRequest->first_name }} {{ $contactRequest->last_name }} ( {{ $contactRequest->email }} ) heeft een vraag gestuurd:
+    Iemand heeft een nieuwe vraag gestuurd. Hieronder de details:
 
-    {{ $contactRequest->question }}
+    Voornaam:{{ $contactRequest->first_name }}
+    Achternaam: {{ $contactRequest->last_name }}
+    Email adres: {{ $contactRequest->email }}
+    Vraag: {{ $contactRequest->question }}
 @endcomponent
