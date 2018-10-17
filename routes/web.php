@@ -116,4 +116,10 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
             'uses' => 'InformationController@processor',
             'as' => 'information.processor'
         ]);
+
+        //Wifi scan routes
+        Route::get('/wifi-scan', [
+            'uses' => 'WifiController@index',
+            'as' => 'wifiScan.index'
+        ]);
 });
