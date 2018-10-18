@@ -2,25 +2,26 @@
 
 namespace App\Mail;
 
-use App\ContactRequest;
+use App\WifiScan;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
+use Illuminate\Contracts\Queue\ShouldQueue;
 
-class ContactRequestSentMail extends Mailable
+class WifiScanMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $contactRequest;
+    public $wifiScan;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct(ContactRequest $contactRequest)
+    public function __construct(WifiScan $wifiScan)
     {
-        $this->contactRequest = $contactRequest;
+        $this->wifiScan = $wifiScan;
     }
 
     /**
@@ -30,6 +31,6 @@ class ContactRequestSentMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.contact-request-sent');
+        return $this->markdown('emails.wifi-scan');
     }
 }

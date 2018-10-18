@@ -2,23 +2,25 @@
 
 namespace App\Mail;
 
+use App\WifiScan;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
-use Illuminate\Contracts\Queue\ShouldQueue;
 
-class ProcessingAgreementSent extends Mailable
+class WifiScanSentMail extends Mailable
 {
     use Queueable, SerializesModels;
+
+    public $wifiScan;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct(WifiScan $wifiScan)
     {
-        //
+        $this->wifiScan = $wifiScan;
     }
 
     /**
@@ -28,6 +30,6 @@ class ProcessingAgreementSent extends Mailable
      */
     public function build()
     {
-        return $this->view('view.name');
+        return $this->markdown('emails.wifiscan-request-sent');
     }
 }

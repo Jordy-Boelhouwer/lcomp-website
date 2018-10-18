@@ -122,4 +122,11 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
             'uses' => 'WifiController@index',
             'as' => 'wifiScan.index'
         ]);
+
+        Route::post('/wifi-scan', [
+            'uses' => 'WifiController@store',
+            'as' => 'wifiScan.store'
+        ]);
+
+
 });

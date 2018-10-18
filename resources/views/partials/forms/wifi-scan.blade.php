@@ -1,4 +1,4 @@
-<form method="POST" action="{{ route('contact.store') }}">
+<form method="POST" action="{{ route('wifiScan.store') }}">
     {{ csrf_field() }}
     <div class="form-group">
         <label for="firstName">@lang('contact.first-name')</label>
@@ -18,11 +18,11 @@
     </div>
     <div class="form-group">
         <label for="phoneNumber">@lang('wifi.phone-number')</label>
-        <input type="text" class="form-control" id="phone-number" name="phone_number" required>
+        <input type="text" class="form-control" id="phoneNumber" name="phone_number" required>
     </div>
     <div class="form-group">
-        <label for="message">@lang('wifi.message') <small>(Max 500 karakters)</small></label>
-        <textarea type="text" class="form-control" id="message" name="message" required></textarea>
+        <label for="question">@lang('wifi.message') <small>(Max 500 karakters)</small></label>
+        <textarea type="text" class="form-control" id="question" name="question" required></textarea>
     </div>
     <div class="form-group">
         <button type="submit" class="btn btn-primary">@lang('contact.send')</button>

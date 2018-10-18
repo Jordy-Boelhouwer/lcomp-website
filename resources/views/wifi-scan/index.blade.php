@@ -19,7 +19,7 @@
                 </div>
 
                 <div class="col-lg-6 col-md-12">
-                    @include('partials/forms/contact')
+                    @include('partials/forms/wifi-scan')
                 </div>
             </div>
         </div>
