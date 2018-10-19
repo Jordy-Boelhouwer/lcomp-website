@@ -9,7 +9,6 @@
         <div class="row">
 			<div class="col-lg-2 col-md-12">
 				@include('partials/leftsidebar/hulp')
-				@include('partials/leftsidebar/partners')
 			</div>
             <div class="col-lg-7 col-sm-12">
                 <h1>@lang('information.privacy-title')</h1>

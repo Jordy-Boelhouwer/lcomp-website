@@ -9,9 +9,6 @@
             <div class="row">
                 <div class="col-lg-2 col-md-12">
                     @include('partials/leftsidebar/hulp')
-                    <div class="partners">
-                        @include('partials/leftsidebar/partners')
-                    </div>
                 </div>
                 <div class="col-lg-7 col-sm-12">
                     <h1 class="mt-3">Onze werkwijze</h1>
@@ -29,10 +26,6 @@
                 <div class="col-lg-3 col-md-12">
                     @include('partials/rightsidebar/services')
                     @include('partials/rightsidebar/isl')
-                </div>
-
-                <div class="col-lg-2 col-md-12 partners-mobile">
-                    @include('partials/leftsidebar/partners')
                 </div>
             </div>
         </div>
