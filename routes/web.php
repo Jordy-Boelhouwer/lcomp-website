@@ -39,25 +39,10 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
         'as' => 'about.index'
     ]);
 
-    Route::get('/werkwijze', [
-        'uses' => 'AboutController@methods',
-        'as' => 'about.methods'
-    ]);
-
 //Brochure routes
     Route::get('/folder', [
         'uses' => 'BrochureController@index',
         'as' => 'brochure.index'
-    ]);
-
-    Route::get('folder-pagina-1', [
-        'uses' => 'BrochureController@showPagina1',
-        'as' => 'brochure.pagina-1'
-    ]);
-
-    Route::get('folder-pagina-2', [
-        'uses' => 'BrochureController@showPagina2',
-        'as' => 'brochure.pagina-2'
     ]);
 
 //Services routes
