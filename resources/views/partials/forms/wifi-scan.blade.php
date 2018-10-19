@@ -31,5 +31,6 @@
     <div class="form-group">
         @include('partials/errors')
     </div>
+    <div class="g-recaptcha" data-sitekey="{{env('GOOGLE_RECAPTCHA_KEY')}}"></div>
 </form>
 

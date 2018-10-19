@@ -5,6 +5,7 @@ use App\Mail\WifiScanMail;
 use App\Mail\WifiScanSentMail;
 use App\WifiScan;
 use Illuminate\Support\Facades\Mail;
+use App\Http\Requests\WifiScanRequest;
 
 class WifiController extends Controller
 {
@@ -13,15 +14,7 @@ class WifiController extends Controller
     }
 
     // Create a new contact request
-    public function store() {
-
-        $this->validate(request(), [
-            'first_name' => 'required',
-            'last_name' => 'required',
-            'email' => 'required',
-            'phone_number' => 'required',
-            'question' => 'required|max:500'
-        ]);
+    public function store(WifiScanRequest $request) {
 
         $wifiScan = WifiScan::create([
             'first_name' => request('first_name'),

@@ -5,8 +5,8 @@ namespace App\Http\Controllers;
 use App\ContactRequest;
 use App\Mail\ContactRequestSentMail;
 use App\Mail\ContactRequestMail;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use App\Http\Requests\contactFormRequest;
 
 class ContactController extends Controller
 {
@@ -16,14 +16,12 @@ class ContactController extends Controller
     }
 
     // Create a new contact request
-    public function store() {
 
-        $this->validate(request(), [
-            'first_name' => 'required',
-            'last_name' => 'required',
-            'email' => 'required',
-            'question' => 'required|max:500'
-        ]);
+    /**
+     * @param contactFormRequest $request
+     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     */
+    public function store(contactFormRequest $request) {
 
         $contactRequest = ContactRequest::create([
             'first_name' => request('first_name'),

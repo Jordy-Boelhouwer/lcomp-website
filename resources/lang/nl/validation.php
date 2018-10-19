@@ -126,7 +126,7 @@ return [
 
     'custom' => [
         'attribute-name' => [
-            'rule-name' => 'custom-message',
+            'recaptcha' => 'Please ensure that you are a human!'
         ],
     ],
 
