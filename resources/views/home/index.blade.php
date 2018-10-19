@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('description', 'Wij lossen uw problemen en vraagstukken graag op; Oplossings- en resultaat gericht denken, korte persoonlijke lijnen en snelle service zijn onze kenmerken. Waarmee kunnen wij u van dienst zijn?')
+
 @section('title', 'Home')
 
 @section('content')

@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('description', 'Bekijk onze folder voor alle aanbiedingen!')
+
+@section('keywords', 'folder')
+
 @section('title', 'Folder')
 
 @section('content')

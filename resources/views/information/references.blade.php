@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('description', 'L\'Comp bedient vele soorten bedrijven. Wij zijn sterk vertegenwoordigd in de financiële dienstverlening / Aannemingsbedrijven en Retail.')
+
 @section('title', 'Referenties')
 
 @section('content')

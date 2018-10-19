@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('description', 'Al sinds 1986 richt L`Comp Automatiseringen zich op kantoorautomatisering voor het MKB. Maar wist u dat wij een totaalpakket aan IT-diensten leveren? Zowel remote als op locatie, voor elk type bedrijf.')
+
+@section('keywords', 'MKB, IT, Lcomp')
+
 @section('title', 'Over ons')
 
 @section('content')

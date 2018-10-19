@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('description', 'Neem contact met ons op via 020 482 4440 of mail ons op info@lcomp.nl')
+
+@section('keywords', 'contact')
+
 @section('title', 'Contact')
 
 @section('content')
