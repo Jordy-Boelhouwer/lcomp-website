@@ -30,7 +30,7 @@ return [
 
     'send-an-email' => 'Send an email',
 
-    'Services-relieves' => 'Our Services',
+    'services' => 'Our Services',
 
     'services-text' => 'More is needed than just delivering a product.
     We offer an agreement for general management and accurate care in case of incidents. A relieve for you.',

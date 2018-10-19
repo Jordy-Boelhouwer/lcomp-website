@@ -15,7 +15,7 @@
                         <div class="col-md-12">
                             <a class="d-flex align-items-center" href="https://www.islonline.net" target="_blank">
                                 <i class="mdi mdi-web mdi-48px mr-2"></i>
-                                <span>Verbind online</span>
+                                <span>@lang('isl.connect-online')</span>
                             </a>
                         </div>
                     </div>

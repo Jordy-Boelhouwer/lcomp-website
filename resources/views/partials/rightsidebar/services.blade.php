@@ -1,4 +1,4 @@
-<h6>@lang('home.services-relieves')</h6>
+<h6>@lang('home.services')</h6>
 <div class="sidepadding">
 	<div class="card">
 		<div class="sidecard-body">

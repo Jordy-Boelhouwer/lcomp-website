@@ -28,7 +28,7 @@ return [
 
     'need-help' => 'Hulp nodig?',
 
-    'services-relieves' => 'Onze Diensten',
+    'services' => 'Onze Diensten',
 
     'services-text' => 'Er is meer nodig dan alleen het leveren van een proeduct.
     Wij bieden een overeenkomst aan voor algemeen beheer en accurate zorg bij incidenten.
