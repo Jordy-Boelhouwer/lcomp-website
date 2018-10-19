@@ -30,9 +30,9 @@
                     <div><img src="{{ asset('/images/logos/spoel-sch-logo.jpg') }}"></div>
                 </div>
 
-                <h1>Partners</h1>
+                <h1 class="mt-5">Partners</h1>
 
-                <div class="partner-slider">
+                <div class="partner-slider mb-5">
                     <div><img src="{{ asset('/images/logos/image1.png') }}"></div>
                     <div><img src="{{ asset('/images/logos/image2.png') }}"></div>
                     <div><img src="{{ asset('/images/logos/image3.png') }}"></div>
