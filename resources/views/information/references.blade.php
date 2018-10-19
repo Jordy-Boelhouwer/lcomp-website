@@ -8,10 +8,11 @@
         <div class="row">
 			<div class="col-lg-2 col-md-12">
 				@include('partials/leftsidebar/hulp')
-				@include('partials/leftsidebar/partners')
 			</div>
             <div class="col-lg-7 col-sm-12">
-                <img class="mb-5" style="width: 100%" src="{{ asset('/images/headers/references_header.jpg') }}" alt="References image">
+                <div class="d-flex justify-content-center">
+                    <img class="mb-5" src="{{ asset('/images/headers/references_header.jpg') }}" alt="References image">
+                </div>
 				<p>@lang('references.references-intro')</p>
 				<p>@lang('references.references-paragraph-1')</p>
                 <p>@lang('references.references-paragraph-2')</p>
@@ -22,7 +23,7 @@
                     <div><img src="{{ asset('/images/logos/toren-logo.png') }}"></div>
                     <div><img src="{{ asset('/images/logos/HelloFresh-logo.png') }}"></div>
                     <div><img src="{{ asset('/images/logos/logo-lovestories.png') }}"></div>
-                    <div><img src="{{ asset('/images/logos/trendsource-logo.png') }}"></div>
+                    {{--<div><img src="{{ asset('/images/logos/trendsource-logo.png') }}"></div>--}}
                     <div><img src="{{ asset('/images/logos/logo-speech-republic.png') }}"></div>
                     <div><img src="{{ asset('/images/logos/tuzkapan-logo.png') }}"></div>
                     <div><img src="{{ asset('/images/logos/cooldelivery-logo.png') }}"></div>
