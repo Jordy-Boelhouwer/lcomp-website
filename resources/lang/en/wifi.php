@@ -10,5 +10,6 @@ return [
     'see-you-soon' => 'See you soon!',
     'you can also call' => 'You can also call: ',
     'phone-number' => 'telephone number',
-    'message' => 'Your message'
+    'message' => 'Your message',
+    'scan' => 'Wifi scan'
 ];

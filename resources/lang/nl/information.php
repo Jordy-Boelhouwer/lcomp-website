@@ -44,8 +44,8 @@ return [
 	           </ul>',
 
     //Cookie
-
+    'cookie-title' => 'Cookie verklaring',
     //Verwerkersovereenkomst
-    'processor-title' => 'Verwerkersovereenkomst',
+    'processor-title' => 'Verwerkersovereenkomst'
 
 ];

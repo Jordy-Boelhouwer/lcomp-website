@@ -3,6 +3,7 @@
 @section('title', 'Over ons')
 
 @section('content')
+    @include('partials/headers/about')
     <section>
         <div class="container">
             <div class="row">

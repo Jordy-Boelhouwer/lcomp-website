@@ -11,7 +11,8 @@
 					@if(Route::current()->getName() == 'services.repair') <li>@lang('services.repair')</li> @else<a href="{{ route("services.repair") }}" class="sysLinks"><li>@lang('services.repair')</li></a>@endif
 					@if(Route::current()->getName() == 'services.voip') <li>@lang('services.voip')</li> @else<a href="{{ route("services.voip") }}" class="sysLinks"><li>@lang('services.voip')</li></a>@endif
 					@if(Route::current()->getName() == 'services.management') <li>@lang('services.management')</li> @else<a href="{{ route("services.management") }}" class="sysLinks"><li>@lang('services.management')</li></a>@endif
-				 </ul>
+					@if(Route::current()->getName() == 'wifiScan.index') <li>@lang('wifi.scan')</li> @else<a href="{{ route("wifiScan.index") }}" class="sysLinks"><li>@lang('wifi.scan')</li></a>@endif
+				</ul>
 		</div>
 	</div>
 </div>

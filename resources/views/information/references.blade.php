@@ -11,6 +11,7 @@
 				@include('partials/leftsidebar/partners')
 			</div>
             <div class="col-lg-7 col-sm-12">
+                <img class="mb-5" style="width: 100%" src="{{ asset('/images/headers/references_header.jpg') }}" alt="References image">
 				<p>@lang('references.references-intro')</p>
 				<p>@lang('references.references-paragraph-1')</p>
                 <p>@lang('references.references-paragraph-2')</p>

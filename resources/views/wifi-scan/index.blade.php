@@ -3,6 +3,7 @@
 @section('title', 'Wifi scan')
 
 @section('content')
+    @include('partials.headers.wifi-scan')
     <section>
         <div class="container">
             <div class="row">

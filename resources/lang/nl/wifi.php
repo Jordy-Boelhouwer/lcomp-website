@@ -10,5 +10,6 @@ return [
     'see-you-soon' => 'Tot snel!',
     'you-can-also-call' => 'Bellen kan ook: ',
     'phone-number' => 'Telefoon nummer',
-    'message' => 'Uw bericht'
+    'message' => 'Uw bericht',
+    'scan' => 'Wifi scan'
 ];
