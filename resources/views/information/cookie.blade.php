@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Syscal')
+@section('title', 'Cookie statement')
 
 @section('content')
 <section>
@@ -10,35 +10,51 @@
 				@include('partials/leftsidebar/hulp')
 			</div>
             <div class="col-lg-7 col-sm-12">
-                <h1>Syscal</h1>
-				<p>
-					<h3>
-						@lang('syscal.calamities')
-					</h3>
-				</p>
+                <h1>Cookies</h1>
 				<p>
 					<b>
-						@lang('syscal.disturbances')
+						Cookies
 					</b>
 				</p>
+
 				<p>
-					@lang('syscal.disturbances2-text')
+					@lang('cookies.cookies-paragraph')
 				</p>
+
 				<p>
-					<b>
-						@lang('syscal.softwaredisturbances')
-					</b>
+					<b>@lang('cookies.what-are-cookies')</b>
 				</p>
+
 				<p>
-					@lang('syscal.softwaredisturbances-text')
+					@lang('cookies.what-are-cookies-paragraph')
 				</p>
+
 				<p>
-					<b>
-						@lang('syscal.hardwaredisturbances')
-					</b>
+					<b>@lang('cookies.which-cookies')</b>
 				</p>
+
 				<p>
-					@lang('syscal.hardwaredisturbances-text')
+					@lang('cookies.which-cookies-text')
+				</p>
+
+				<p>
+					@lang('cookies.which-cookies-li')
+				</p>
+
+				<p>
+					<b>@lang('cookies.how-long')</b>
+				</p>
+
+				<p>
+					@lang('cookies.how-long-paragraph')
+				</p>
+
+				<p>
+					<b>@lang('cookies.remove')</b>
+				</p>
+
+				<p>
+					@lang('cookies.remove-paragraph')
 				</p>
 
 			</div>
