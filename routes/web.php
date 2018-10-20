@@ -33,23 +33,15 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
         'as' => 'contact.store'
     ]);
 
-//About routes
-    Route::get('/over-ons', [
-        'uses' => 'AboutController@index',
-        'as' => 'about.index'
-    ]);
+    Route::get(LaravelLocalization::transRoute('routes.about'), function() {
+    })->uses('AboutController@index')->name('about.index');
 
-//Brochure routes
-    Route::get('/folder', [
-        'uses' => 'BrochureController@index',
-        'as' => 'brochure.index'
-    ]);
+    Route::get(LaravelLocalization::transRoute('routes.brochure'), function() {
+    })->uses('BrochureController@index')->name('brochure.index');
 
 //Services routes
-        Route::get('/automatisering', [
-            'uses' => 'ServicesController@automation',
-            'as' => 'services.automation'
-        ]);
+        Route::get(LaravelLocalization::transRoute('routes.automation'), function() {
+        })->uses('ServicesController@automation')->name('services.automation');
 
         Route::get('/wifi', [
             'uses' => 'ServicesController@wifi',
@@ -66,41 +58,32 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
             'as' => 'services.consultancy'
         ]);
 
-        Route::get('/reparaties', [
-            'uses' => 'ServicesController@repair',
-            'as' => 'services.repair'
-        ]);
+        Route::get(LaravelLocalization::transRoute('routes.repairs'), function() {
+        })->uses('ServicesController@repair')->name('services.repair');
 
         Route::get('/voip', [
             'uses' => 'ServicesController@voip',
             'as' => 'services.voip'
         ]);
 
-        Route::get('/ictbeheer', [
-            'uses' => 'ServicesController@management',
-            'as' => 'services.management'
-        ]);
+        Route::get(LaravelLocalization::transRoute('routes.management'), function() {
+        })->uses('ServicesController@management')->name('services.management');
 
 //Information routes
-        Route::get('/privacyverklaring', [
-            'uses' => 'InformationController@privacy',
-            'as' => 'information.privacy'
-        ]);
+        Route::get(LaravelLocalization::transRoute('routes.management'), function() {
+        })->uses('ServicesController@management')->name('services.management');
 
-        Route::get('/cookies', [
-            'uses' => 'InformationController@cookie',
-            'as' => 'information.cookie'
-        ]);
+        Route::get(LaravelLocalization::transRoute('routes.privacy-statement'), function() {
+        })->uses('InformationController@privacy')->name('information.privacy');
 
-        Route::get('/referenties', [
-            'uses' => 'InformationController@references',
-            'as' => 'information.references'
-        ]);
+        Route::get(LaravelLocalization::transRoute('routes.cookie-statement'), function() {
+        })->uses('InformationController@cookie')->name('information.cookie');
 
-        Route::get('/verwerkersovereenkomst', [
-            'uses' => 'InformationController@processor',
-            'as' => 'information.processor'
-        ]);
+        Route::get(LaravelLocalization::transRoute('routes.references'), function() {
+        })->uses('InformationController@references')->name('information.references');
+
+        Route::get(LaravelLocalization::transRoute('routes.processor-agreement'), function() {
+        })->uses('InformationController@processor')->name('information.processor');
 
         //Wifi scan routes
         Route::get('/wifi-scan', [
