@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col-md-3 col-sm-12 mb-md-0 mb-3">
 
-					<h5 class="text-uppercase text-white">@lang('home.services-relieves')</h5>
+					<h5 class="text-uppercase text-white">@lang('home.services')</h5>
 
 					<ul>
 						@if(Route::current()->getName() == 'services.automation') <li>@lang('services.automation')</li> @else<a href="{{ route("services.automation") }}" class="sysLinks"><li>@lang('services.automation')</li></a>@endif
