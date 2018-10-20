@@ -35,6 +35,8 @@ class ContactController extends Controller
 
         Mail::to("jordyboelhouwer@hotmail.com")->send(new ContactRequestMail($contactRequest));
 
+        flash('Contactverzoek successvol verstuurd!')->success();
+
         return redirect('/');
     }
 }

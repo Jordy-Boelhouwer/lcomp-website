@@ -29,6 +29,8 @@ class WifiController extends Controller
 
         Mail::to("jordyboelhouwer@hotmail.com")->send(new WifiScanMail($wifiScan));
 
+        flash('Wifi scan verzoek successvol verstuurd!')->success();
+
         return redirect('/');
     }
 }

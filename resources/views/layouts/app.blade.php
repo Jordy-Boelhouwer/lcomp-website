@@ -37,6 +37,7 @@
     <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
+@include('flash::message')
 @include('partials/navbar')
 
 @yield('content')

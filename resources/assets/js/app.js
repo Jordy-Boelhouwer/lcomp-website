@@ -10,6 +10,9 @@ require('./bootstrap');
 import $ from 'jquery';
 window.$ = window.jQuery = $;
 import 'slick-carousel'
+import 'bootstrap'
+
+$('div.alert').not('.alert-important').delay(3000).fadeOut(350);
 
 $(".references-slider").slick({
     infinite: true,
