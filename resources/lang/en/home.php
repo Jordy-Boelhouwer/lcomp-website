@@ -37,7 +37,7 @@ return [
 
     'external-help' => 'remote help',
 
-    'live-chat' => 'live chat'
+    'live-chat' => 'Live chat'
 
 
 ];
