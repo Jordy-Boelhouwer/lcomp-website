@@ -16,8 +16,8 @@ $('div.alert').not('.alert-important').delay(3000).fadeOut(350);
 
 $(".references-slider").slick({
     infinite: true,
-    slidesToShow: 2,
-    slidesToScroll: 2,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     arrows: true,
     autoplay: true,
     dots: true,
@@ -51,8 +51,8 @@ $(".references-slider").slick({
 
 $(".partner-slider").slick({
     infinite: true,
-    slidesToShow: 2,
-    slidesToScroll: 2,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     autoplay: true,
     dots: true,
     autoplaySpeed: 6000,

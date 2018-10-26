@@ -32,7 +32,7 @@
 				<div class="col-md-3 col-sm-12 mt-md-0 mt-3">
 
 					<h5 class="text-uppercase text-white">Contact Gegevens</h5>
-					<p>L’Comp Automatiseringen </p>
+					<p>L’Comp Automatiseringen B.V </p>
 					<p>Burgermeester Postweg 5A </br> 1121 JA Landsmeer </p>
 					<a href="tel:0204824440"> tel. 020 482 444 0 </a>
 
@@ -45,7 +45,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h5 class="text-white">L'Comp Automatiseringen</h5>
+				<h5 class="text-white">L'Comp Automatiseringen B.V</h5>
             </div>
 		</div>
 	</div>
