@@ -11,8 +11,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
-                    <iframe style="height:100%;width:100%;border:none;" src="http://lcomp.nl/folders/back2school/"></iframe>
-                </div>
+                    <div class="t">
+                        <div class="tc rel">
+                            <div class="book" id="book">
+                                <div class="page"><img src="{{ asset('images/pagina-1.jpg') }}" alt="" /></div>
+                                <div class="page"><img src="{{ asset('images/pagina-2.jpg') }}" alt="" /></div>
+                                <div class="page"><img src="{{ asset('images/pagina-3.jpg') }}" alt="" /></div>
+                                <div class="page"><img src="{{ asset('images/pagina-4.jpg') }}" alt="" /></div>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
     </section>

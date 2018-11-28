@@ -19,9 +19,9 @@
                 <a class="nav-item nav-link @if(Route::current()->getName() == 'contact.index') active @endif"
                    href="{{ route("contact.index") }}">Contact</a>
                 <a class="nav-item nav-link @if(Route::current()->getName() == 'information.references') active @endif"
-                   href="{{ route("information.references") }}">Referenties</a>
+                   href="{{ route("information.references") }}">@lang('routes.references')</a>
                 <a class="nav-item nav-link @if(Route::current()->getName() == 'brochure.index') active @endif"
-                   href="{{ route("brochure.index") }}">Folder</a>
+                   href="{{ route("brochure.index") }}">@lang('routes.brochure')</a>
             </div>
         </div>
     </nav>

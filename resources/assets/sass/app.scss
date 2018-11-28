@@ -2,6 +2,9 @@
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
+//icons
+@import '../../../node_modules/@mdi/font/scss/materialdesignicons';
+
 @import '../../../node_modules/slick-carousel/slick/slick';
 @import '../../../node_modules/slick-carousel/slick/slick-theme';
 
@@ -16,9 +19,6 @@
 @import 'base/header';
 @import 'base/footer';
 @import 'base/slider';
-
-//icons
-@import '../../../node_modules/@mdi/font/scss/materialdesignicons';
 
 //pages
 @import 'pages/_contact';
