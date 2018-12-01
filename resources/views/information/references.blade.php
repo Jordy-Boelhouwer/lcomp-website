@@ -23,7 +23,7 @@
                     <div><img src="{{ asset('/images/logos/tis-logo.jpg') }}"></div>
                     <div><img src="{{ asset('/images/logos/wagelaar-logo.jpg') }}"></div>
                     <div><img src="{{ asset('/images/logos/toren-logo.png') }}"></div>
-                    <div><img src="{{ asset('/images/logos/HelloFresh-logo.png') }}"></div>
+                    <div><img src="{{ asset('/images/logos/hellofresh-logo.png') }}"></div>
                     <div><img src="{{ asset('/images/logos/logo-lovestories.png') }}"></div>
                     {{--<div><img src="{{ asset('/images/logos/trendsource-logo.png') }}"></div>--}}
                     <div><img src="{{ asset('/images/logos/logo-speech-republic.png') }}"></div>

@@ -33,7 +33,7 @@
 
 					<h5 class="text-uppercase text-white">Contact Gegevens</h5>
 					<p>L’Comp Automatiseringen B.V </p>
-					<p>Burgermeester Postweg 5A </br> 1121 JA Landsmeer </p>
+					<p>Burgemeester Postweg 5A </br> 1121 JA Landsmeer </p>
 					<a href="tel:0204824440"> tel. 020 482 444 0 </a>
 
 				</div>

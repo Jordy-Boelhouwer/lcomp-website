@@ -30,7 +30,7 @@ return [
 
     'services' => 'Onze Diensten',
 
-    'services-text' => 'Er is meer nodig dan alleen het leveren van een proeduct.
+    'services-text' => 'Er is meer nodig dan alleen het leveren van een product.
     Wij bieden een overeenkomst aan voor algemeen beheer en accurate zorg bij incidenten.
     Voor u een zorg minder',
 

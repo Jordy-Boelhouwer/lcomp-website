@@ -21,6 +21,10 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-sm-12">
+                    <p class="text-center">@lang('brochure.brochure-message')</p>
+                </div>
             </div>
         </div>
     </section>
