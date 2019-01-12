@@ -25,6 +25,8 @@
 						@if(Route::current()->getName() == 'information.privacy') <li>@lang('information.privacy-title')</li> @else<a href="{{ route("information.privacy") }}" class="sysLinks"><li>@lang('information.privacy-title')</li></a>@endif
 						@if(Route::current()->getName() == 'information.cookie') <li>@lang('information.cookie-title')</li> @else<a href="{{ route("information.cookie") }}" class="sysLinks"><li>@lang('information.cookie-title')</li></a>@endif
 						@if(Route::current()->getName() == 'information.processor') <li>@lang('information.processor-title')</li> @else<a href="{{ route("information.processor") }}" class="sysLinks"><li>@lang('information.processor-title')</li></a>@endif
+						<a href="/files/voorwaardenV2.pdf" target="_blank" class="sysLinks"><li>@lang('information.terms-and-conditions-lcomp')</li></a>
+						<a href="/files/voorwaardenICTWaarborg.pdf" target="_blank" class="sysLinks"><li>@lang('information.terms-and-conditions-ictwaarborg')</li></a>
 					</ul>
 
 				</div>

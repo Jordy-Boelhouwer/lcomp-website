@@ -30,6 +30,6 @@ class ContactRequestSentMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.contact-request-sent');
+        return $this->markdown('emails.contact-request-sent')->subject('Bevestiging contactverzoek');
     }
 }

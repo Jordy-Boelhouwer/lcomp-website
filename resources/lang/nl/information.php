@@ -46,6 +46,10 @@ return [
     //Cookie
     'cookie-title' => 'Cookie verklaring',
     //Verwerkersovereenkomst
-    'processor-title' => 'Verwerkersovereenkomst'
+    'processor-title' => 'Verwerkersovereenkomst',
+
+    'terms-and-conditions-lcomp' => 'Algemene voorwaarden L\'comp',
+
+    'terms-and-conditions-ictwaarborg' => 'Algemene voorwaarden ICTWaarborg'
 
 ];

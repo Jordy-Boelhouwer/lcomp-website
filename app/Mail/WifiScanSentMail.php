@@ -30,6 +30,6 @@ class WifiScanSentMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.wifiscan-request-sent');
+        return $this->markdown('emails.wifiscan-request-sent')->subject('Bevestiging verzoek wifi scan');
     }
 }

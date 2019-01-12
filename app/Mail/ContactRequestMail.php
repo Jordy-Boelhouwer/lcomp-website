@@ -31,6 +31,6 @@ class ContactRequestMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.contact-request');
+        return $this->markdown('emails.contact-request')->subject('Contactverzoek');
     }
 }

@@ -51,6 +51,10 @@ return [
     //Cookie
     'cookie-title' => 'Cookie statement',
     //Verwerkersovereenkomst
-    'processor-title' => 'Processing agreement'
+    'processor-title' => 'Processing agreement',
+
+    'terms-and-conditions-lcomp' => 'Terms and conditions L\'comp',
+
+    'terms-and-conditions-ictwaarborg' => 'Terms and conditions ICTWaarborg'
 
 ];
