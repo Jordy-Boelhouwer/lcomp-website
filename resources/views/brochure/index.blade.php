@@ -10,6 +10,9 @@
     <section>
         <div class="container">
             <div class="row">
+                <div class="col-sm-12">
+                    <p class="text-center">@lang('brochure.brochure-tip')</p>
+                </div>
                 <div class="col-lg-12 col-sm-12">
                     <div class="t">
                         <div class="tc rel">

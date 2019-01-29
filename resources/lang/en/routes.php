@@ -3,13 +3,13 @@
 return [
 
     'about' => 'about-us',
-    'brochure' => 'brochure',
+    'brochure' => 'Brochure',
     'automation' => 'automation',
     'repairs' => 'repairs',
     'management' => 'ict-management',
     'privacy-statement' => 'privacy-statement',
     'cookie-statement' => 'cookie-statement',
-    'references' => 'references',
+    'references' => 'References',
     'processor-agreement' => 'processor-agreement',
 
 ];
