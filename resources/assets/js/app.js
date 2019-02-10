@@ -80,37 +80,38 @@ $('div.alert').not('.alert-important').delay(3000).fadeOut(350);
 
 $(".references-slider").slick({
     infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 1,
+    slidesToScroll: 1,
     arrows: true,
     autoplay: true,
     dots: true,
     autoplaySpeed: 6000,
-    adaptiveHeight: true,
-    responsive: [
-        {
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                infinite: true,
-                dots: true
-            }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }]
+    variableWidth: true,
+    centerMode: true,
+    // responsive: [
+    //     {
+    //         breakpoint: 1024,
+    //         settings: {
+    //             slidesToShow: 2,
+    //             slidesToScroll: 2,
+    //             infinite: true,
+    //             dots: true
+    //         }
+    //     },
+    //     {
+    //         breakpoint: 600,
+    //         settings: {
+    //             slidesToShow: 2,
+    //             slidesToScroll: 2
+    //         }
+    //     },
+    //     {
+    //         breakpoint: 480,
+    //         settings: {
+    //             slidesToShow: 1,
+    //             slidesToScroll: 1
+    //         }
+    //     }]
 });
 
 $(".partner-slider").slick({

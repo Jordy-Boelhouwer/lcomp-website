@@ -20,16 +20,16 @@
                 <p>@lang('references.references-paragraph-2')</p>
 
                 <div class="references-slider mt-5 mb-5">
-                    <div><img src="{{ asset('/images/logos/tis-logo.jpg') }}"></div>
-                    <div><img src="{{ asset('/images/logos/wagelaar-logo.jpg') }}"></div>
-                    <div><img src="{{ asset('/images/logos/toren-logo.png') }}"></div>
-                    <div><img src="{{ asset('/images/logos/hellofresh-logo.png') }}"></div>
-                    <div><img src="{{ asset('/images/logos/logo-lovestories.png') }}"></div>
+                    <div><img src="{{ asset('/images/logos/tis-logo.jpg') }}" class="img-fluid"></div>
+                    <div><img src="{{ asset('/images/logos/wagelaar-logo.jpg') }}" class="img-fluid"></div>
+                    <div><img src="{{ asset('/images/logos/toren-logo.png') }}" class="img-fluid"></div>
+                    <div><img src="{{ asset('/images/logos/hellofresh-logo.png') }}" class="img-fluid"></div>
+                    <div><img src="{{ asset('/images/logos/logo-lovestories.png') }}" class="img-fluid"></div>
                     {{--<div><img src="{{ asset('/images/logos/trendsource-logo.png') }}"></div>--}}
-                    <div><img src="{{ asset('/images/logos/logo-speech-republic.png') }}"></div>
-                    <div><img src="{{ asset('/images/logos/tuzkapan-logo.png') }}"></div>
-                    <div><img src="{{ asset('/images/logos/cooldelivery-logo.png') }}"></div>
-                    <div><img src="{{ asset('/images/logos/spoel-sch-logo.jpg') }}"></div>
+                    <div><img src="{{ asset('/images/logos/Speech-Republic-3.png') }}" class="img-fluid"></div>
+                    <div><img src="{{ asset('/images/logos/tuzlee-logo.png') }}" class="img-fluid"></div>
+                    <div><img src="{{ asset('/images/logos/cooldelivery-logo.png') }}" class="img-fluid"></div>
+                    <div><img src="{{ asset('/images/logos/spoel-sch-logo.jpg') }}" class="img-fluid"></div>
                 </div>
 
                 <h1 class="mt-5">Partners</h1>
