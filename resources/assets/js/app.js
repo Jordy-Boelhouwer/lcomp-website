@@ -148,4 +148,11 @@ $(".partner-slider").slick({
         }]
 });
 
+$(".valentine-slider").slick({
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 6000,
+    dots: true,
+});
+
 

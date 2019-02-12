@@ -22,3 +22,19 @@
     width: 200px;
   }
 }
+
+.valentine-slider {
+  height: 480px;
+  position: relative;
+  width: 100%;
+
+  .slick-slide {
+    width: 100%;
+    margin: 0;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}

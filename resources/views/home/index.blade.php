@@ -6,7 +6,9 @@
 
 @section('content')
 
-@include('partials/headers/home')
+{{--@include('partials/headers/home')--}}
+@include('partials/headers/valentine')
+
 <section>
     <div class="container">
         <div class="row">
