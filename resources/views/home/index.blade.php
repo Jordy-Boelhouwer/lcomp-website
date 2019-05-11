@@ -6,8 +6,7 @@
 
 @section('content')
 
-{{--@include('partials/headers/home')--}}
-@include('partials/headers/valentine')
+@include('partials/headers/home')
 
 <section>
     <div class="container">
@@ -16,6 +15,9 @@
 				@include('partials/leftsidebar/hulp')
 				<div class="partners">
 					@include('partials/leftsidebar/partners')
+				</div>
+				<div class="mt-5">
+					@include('partials.leftsidebar.data-protection')
 				</div>
 			</div>
 

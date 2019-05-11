@@ -91,6 +91,16 @@ h6:after {
   }
 }
 
+.dummy-book {
+  width: 100%;
+  @include media-breakpoint-down(sm) {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .bg-light {
     background-color: #ffffff !important;
 }
