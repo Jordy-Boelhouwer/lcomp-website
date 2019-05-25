@@ -11,5 +11,6 @@ return [
     'you-can-also-call' => 'Bellen kan ook: ',
     'phone-number' => 'Telefoon nummer',
     'message' => 'Uw bericht',
-    'scan' => 'Wifi scan'
+    'scan' => 'Wifi scan',
+    'apply-now' => 'Vraag nu aan'
 ];

@@ -14,6 +14,9 @@ import 'bootstrap'
 require('./turn');
 require('./zoom');
 require('./hash');
+require('flatpickr/dist/flatpickr.min.js');
+const flatpickr = require('flatpickr/dist/flatpickr.min.js');
+import { Dutch } from "flatpickr/dist/l10n/nl.js"
 
 $('div.alert').not('.alert-important').delay(3000).fadeOut(350);
 
@@ -77,6 +80,11 @@ $('div.alert').not('.alert-important').delay(3000).fadeOut(350);
         module.init('book');
     }
 }());
+
+flatpickr($("#datepicker"), {
+    inline: true,
+    locale: Dutch,
+});
 
 $(".references-slider").slick({
     infinite: true,
@@ -154,5 +162,6 @@ $(".valentine-slider").slick({
     autoplaySpeed: 6000,
     dots: true,
 });
+
 
 

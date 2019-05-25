@@ -24,12 +24,10 @@ class WifiScanRequest extends FormRequest
     public function rules()
     {
         return [
-            'first_name' => 'required',
-            'last_name' => 'required',
+            'name' => 'required',
             'email' => 'required',
-            'phone_number' => 'required',
-            'question' => 'required|max:500',
-            'g-recaptcha-response' => 'required|recaptcha'
+            'date' => 'required',
+//            'g-recaptcha-response' => 'required|recaptcha'
         ];
     }
 }

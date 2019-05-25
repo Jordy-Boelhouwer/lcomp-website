@@ -1,5 +1,5 @@
 @component('mail::message')
-    Beste {{ $wifiScan->first_name }} {{ $wifiScan->last_name }},
+    Beste {{ $wifiScan->name }},
 
     Bedankt voor uw verzoek op een wifi scan, we zullen deze zo snel mogelijk beantwoorden!
 

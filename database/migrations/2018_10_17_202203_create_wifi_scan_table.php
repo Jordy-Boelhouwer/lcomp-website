@@ -15,12 +15,10 @@ class CreateWifiScanTable extends Migration
     {
         Schema::create('wifi_scans', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('first_name');
-            $table->string('middle_name')->nullable();
-            $table->string('last_name');
+            $table->string('name');
             $table->string('email');
-            $table->string('phone_number');
-            $table->string('question');
+            $table->string('phone_number')->nullable();
+            $table->date('date');
             $table->timestamps();
         });
     }

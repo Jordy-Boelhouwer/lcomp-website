@@ -1,8 +1,7 @@
 @component('mail::message')
     Iemand heeft een nieuwe wifi scan aanvraag gestuurd. Hieronder de details:
 
-    Voornaam:{{ $wifiScan->first_name }}
-    Achternaam: {{ $wifiScan->last_name }}
+    Naam:{{ $wifiScan->name }}
     Email adres: {{ $wifiScan->email }}
-    Vraag: {{ $wifiScan->question }}
+    Datum: {{ Carbon\Carbon::parse($wifiScan->date)->toFormattedDateString() }}
 @endcomponent
