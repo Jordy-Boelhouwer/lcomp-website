@@ -43,7 +43,7 @@
                     <div><img src="{{ asset('/images/logos/image7.png') }}"></div>
                     <div><img src="{{ asset('/images/logos/image8.png') }}"></div>
                     <div><img src="{{ asset('/images/logos/image9.png') }}"></div>
-                    <div><img src="{{ asset('/images/logos/image10.png') }}"></div>
+                    <div id="eset"><a href="https://www.eset.com"><img src="{{ asset('/images/logos/eset-silver-partner.png') }}"></a></div>
                     <div><img src="{{ asset('/images/logos/image11.png') }}"></div>
                 </div>
 			</div>
