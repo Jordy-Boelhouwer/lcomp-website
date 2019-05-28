@@ -20,16 +20,15 @@
                 <p>@lang('references.references-paragraph-2')</p>
 
                 <div class="references-slider mt-5 mb-5">
-                    <div><img src="{{ asset('/images/logos/tis-logo.jpg') }}" class="img-fluid"></div>
-                    <div><img src="{{ asset('/images/logos/wagelaar-logo.jpg') }}" class="img-fluid"></div>
-                    <div><img src="{{ asset('/images/logos/toren-logo.png') }}" class="img-fluid"></div>
-                    <div><img src="{{ asset('/images/logos/hellofresh-logo.png') }}" class="img-fluid"></div>
-                    <div><img src="{{ asset('/images/logos/logo-lovestories.png') }}" class="img-fluid"></div>
+                    <div id="tis"><img src="{{ asset('/images/logos/tis-logo.jpg') }}"></div>
+                    <div id="wagelaar"><img src="{{ asset('/images/logos/wagelaar-logo.jpg') }}"></div>
+                    <div id="toren"><img src="{{ asset('/images/logos/toren-logo.png') }}"></div>
+                    <div id="hf"><img src="{{ asset('/images/logos/hellofresh-logo.png') }}"></div>
+                    <div id="ls"><img src="{{ asset('/images/logos/logo-lovestories.png') }}"></div>
                     {{--<div><img src="{{ asset('/images/logos/trendsource-logo.png') }}"></div>--}}
-                    <div><img src="{{ asset('/images/logos/Speech-Republic-3.png') }}" class="img-fluid"></div>
-                    <div><img src="{{ asset('/images/logos/tuzlee-logo.png') }}" class="img-fluid"></div>
-                    <div><img src="{{ asset('/images/logos/cooldelivery-logo.png') }}" class="img-fluid"></div>
-                    <div><img src="{{ asset('/images/logos/spoel-sch-logo.jpg') }}" class="img-fluid"></div>
+                    <div id="sr"><img src="{{ asset('/images/logos/Speech-Republic-3.png') }}"></div>
+                    <div id="tuzlee"><img src="{{ asset('/images/logos/tuzlee-logo.png') }}"></div>
+                    <div id="cd"><img src="{{ asset('/images/logos/cooldelivery-logo.png') }}"></div>
                 </div>
 
                 <h1 class="mt-5">Partners</h1>

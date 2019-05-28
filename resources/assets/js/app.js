@@ -94,8 +94,6 @@ $(".references-slider").slick({
     autoplay: true,
     dots: true,
     autoplaySpeed: 6000,
-    variableWidth: true,
-    centerMode: true,
     // responsive: [
     //     {
     //         breakpoint: 1024,
