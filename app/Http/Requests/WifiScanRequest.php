@@ -27,7 +27,7 @@ class WifiScanRequest extends FormRequest
             'name' => 'required',
             'email' => 'required',
             'date' => 'required',
-//            'g-recaptcha-response' => 'required|recaptcha'
+            'g-recaptcha-response' => 'required|recaptcha'
         ];
     }
 }

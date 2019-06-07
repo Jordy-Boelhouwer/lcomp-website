@@ -39,6 +39,10 @@
                         <div class="form-group">
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </div>
+                        <div class="form-group">
+                            @include('partials/errors')
+                        </div>
+                        <div class="g-recaptcha" data-sitekey="{{env('GOOGLE_RECAPTCHA_KEY')}}"></div>
                     </form>
                 </div>
 
