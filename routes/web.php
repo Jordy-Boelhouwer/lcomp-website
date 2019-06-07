@@ -87,7 +87,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
 
         //Wifi scan routes
         Route::get('/wifi-scan', [
-            'uses' => 'WifiController@index',
+            'uses' => 'LandingController@wifi',
             'as' => 'wifiScan.index'
         ]);
 
@@ -95,11 +95,4 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
             'uses' => 'WifiController@store',
             'as' => 'wifiScan.store'
         ]);
-
-        Route::get('/wifi-scan-aanvraag', [
-            'uses' => 'LandingController@wifi',
-            'as' => 'landing.wifi'
-        ]);
-
-
 });
