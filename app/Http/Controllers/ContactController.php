@@ -22,7 +22,17 @@ class ContactController extends Controller
      * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
      */
     public function store(contactFormRequest $request) {
+        $contactRequest = self::createContactFormRequest();
+        self::sendMails($contactRequest);
+        self::showSuccessMessage();
+        return redirect('/');
+    }
 
+    /**
+     * @return ContactRequest|\Illuminate\Database\Eloquent\Model
+     * Create contactFormRequest which will be saved in the database
+     */
+    private function createContactFormRequest() {
         $contactRequest = ContactRequest::create([
             'first_name' => request('first_name'),
             'middle_name' => request('middle_name'),
@@ -30,13 +40,22 @@ class ContactController extends Controller
             'email' => request('email'),
             'question' => request('question')
         ]);
+        return $contactRequest;
+    }
 
+    /**
+     * @param ContactRequest $contactRequest
+     * Send confirmation mail to contact requester and send mail with contact data to info@lcomp.nl
+     */
+    private function sendMails($contactRequest) {
         Mail::to($contactRequest)->send(new ContactRequestSentMail($contactRequest));
-
         Mail::to("jordyboelhouwer@hotmail.com")->send(new ContactRequestMail($contactRequest));
+    }
 
+    /**
+     * Show a success message to the user upon redirect after successfully filling the contact form
+     */
+    private function showSuccessMessage() {
         flash('Contactverzoek successvol verstuurd!')->success();
-
-        return redirect('/');
     }
 }
